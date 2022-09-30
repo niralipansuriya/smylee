@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smylee</string>
+    <string name="permission_request">This app needs permission for camera and audio recording.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="message_need_permission">Need Permissions</string>
+    <string name="message_permission">This app needs permission to use this feature. You can grant them in app settings.</string>
+    <string name="title_go_to_setting">GOTO SETTINGS</string>
+    <string name="action_settings">Settings</string>
+    <string name="create_account">Create your account</string>
+    <string name="create_post">Create New Post</string>
+    <string name="validate_otp">Please Enter Otp</string>
+    <string name="account">Already have an account?</string>
+    <string name="select_category">Please select category</string>
+    <string name="select_language">Please select language</string>
+    <string name="record">Record</string>
+    <string name="update">Update</string>
+    <string name="update_app">New version available, Would you like to update app?</string>
+    <string name="following_msg">Following user videos will show here once you have signed in and followed the other user</string>
+
+    <string name="swipe">ಮೇಲಕ್ಕೆ ಎಳಿ</string>
+    <string name="change_phonne_validation">ದಯವಿಟ್ಟು ಹೊಸ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="filevalidation">ಆಯ್ದ ವೀಡಿಯೊ ಫೈಲ್ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ</string>
+    <string name="bigfilevalidation">Selected video file is to large </string>
+    <string name="comment">Comment</string>
+    <string name="agree1">I have read and agree to terms &amp; conditions</string>
+    <string name="agree_validation">Please agree to terms &amp; conditions</string>
+    <string name="selectdate">Select Date</string>
+    <string name="facebook_app_id">134922705142693</string>
+    <string name="signup_back_msg">You have not completed the registration steps, if you go back then you will be logged out</string>
+    <string name="fbvideoshare">Share Post To FaceBook</string>
+    <string name="instvideoshare">Share Post To Instagram</string>
+    <string name="rate_app">Rate the App</string>
+    <string name="alert_rating_review">If you have already cancelled the rating dialog or already provided your ratings then you need go to play store and provide your valuable feedback or update your ratings.</string>
+
+    <string name="self_post_msg">No post available.</string>
+    <string name="other_post_msg">No post available for this user.</string>
+    <string name="self_following_msg">You are not following any user yet.</string>
+    <string name="self_follower_msg">You have no followers yet.</string>
+    <string name="block_msg">You have not blocked any user</string>
+    <string name="other_following_msg">This user not following any other user.</string>
+    <string name="other_follower_msg">This user doesn\'t have any followers yet.</string>
+
+
+    <string name="five_seconds">5 seconds</string>
+    <string name="ten_seconds">10 seconds</string>
+    <string name="off_timer">Timer Off</string>
+    <string name="facebook">Facebook</string>
+    <string name="instagram">Instagram</string>
+    <string name="Youtube">YouTube</string>
+    <string name="audioExtract">You have selected audio from existing video. Do you want to apply it in video?</string>
+    <string name="facebook_link">Please enter valid FaceBook Profile Link</string>
+    <string name="instagram_link">Please enter valid Instagram Profile Link</string>
+    <string name="youtube_link">Please enter valid YouTube Profile Link</string>
+
+    <string name="proceed">ಮುಂದುವರೆಯಲು</string>
+    <string name="chooseapplanguage">ಅಪ್ಲಿಕೇಶನ್ ಆಯ್ಕೆಮಾಡಿ \nಭಾಷೆ</string>
+    <string name="video_language_prefrence">ವೀಡಿಯೊ ಭಾಷೆ</string>
+
+    <string name="str1">Changing your phone number will migrate your
+account info, groups and settings.
+</string>
+    <string name="str2">Before proceeding, please confirm that you are
+able to receive SMS or calls at your new number.
+</string>
+    <string name="str3">If you have both a new phone and a new number,
+First change your number on your old phone.
+</string>
+    <string name="change_phone">ಸಂಖ್ಯೆಯನ್ನು ಬದಲಾಯಿಸಿ</string>
+    <string name="report_header">ಸಮಸ್ಯೆಯನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ನಮಗೆ ಸಹಾಯ ಮಾಡಿ.ಈ ಪೋಸ್ಟ್‌ನೊಂದಿಗೆ ಏನು ನಡೆಯುತ್ತಿದೆ?</string>
+    <string name="spam_1">ಅನುಮಾನಾಸ್ಪದ ಅಥವಾ ಸ್ಪ್ಯಾಮ್</string>
+    <string name="spam_2">ಸೂಕ್ಷ್ಮ ಫೋಟೋ ಅಥವಾ ವಿಡಿಯೋ</string>
+    <string name="spam_3">ನಿಂದನೀಯ ಅಥವಾ ಹಾನಿಕಾರಕ</string>
+    <string name="spam_4">ನಗ್ನತೆ ಅಥವಾ ಆಕ್ರಮಣಕಾರಿ ವಿಷಯ</string>
+    <string name="spam_5">ಹಿಂಸೆ</string>
+    <string name="spam_6">ಸ್ವಯಂ-ಹಾನಿ ಅಥವಾ ಆತ್ಮಹತ್ಯೆಯ ಉದ್ದೇಶಗಳನ್ನು ವ್ಯಕ್ತಪಡಿಸುತ್ತದೆ</string>
+    <string name="currentphone">ದಯವಿಟ್ಟು ಪ್ರಸ್ತುತ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ</string>
+
+    <string name="report_issue">ಸಮಸ್ಯೆಯನ್ನು ವರದಿ ಮಾಡಿ</string>
+    <string name="album">Album</string>
+    <string name="category">Category</string>
+    <string name="discover">Discover</string>
+    <string name="trending">Trending</string>
+    <string name="uploading_video">Uploading video...</string>
+    <string name="language">Language</string>
+    <string name="stop">Stop</string>
+    <string name="logout">logout</string>
+    <string name="no_data_found">कोणतीही सामग्री उपलब्ध नाही. कृपया नंतर प्रयत्न करा.
+</string>
+    <string name="change_psw">Change Password</string>
+    <string name="verify">Verify your phone number</string>
+    <string name="otptext">One time password(OTP) has been sent to your phone number.</string>
+    <string name="add_title">Tap to add title</string>
+    <string name="verify_txt">Verify</string>
+    <string name="picture">Picture</string>
+    <string name="Resend">Resend</string>
+    <string name="video">Capture Video</string>
+    <string name="description_info">Info</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="emailhint">Email</string>
+    <string name="pswhint">Password</string>
+    <string name="loginwith">Or log in with</string>
+    <string name="Login">Login</string>
+    <string name="signIN">Sign In</string>
+    <string name="chooseintrest">Choose your \nintrests</string>
+    <string name="chooselanguage">Choose your \nlanguage</string>
+    <string name="skip">Skip</string>
+    <string name="recommedations">Get personalized video recommendation.</string>
+    <string name="language_recommedations">Choose your video language preference</string>
+    <string name="app_language_recommedations">Choose your language preference</string>
+    <string name="notifications">Notifications</string>
+    <string name="use">Use</string>
+    <string name="add">Add</string>
+    <string name="post">Posts</string>
+    <string name="change_language">Change Video Language</string>
+    <string name="change_category">Change Interest</string>
+    <string name="edt_profile">Edit Profile</string>
+    <string name="mypost">My Posts</string>
+    <string name="unblock">Unblock</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="blocked_user">Blocked Users</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="profilelogin">Profile will show here once you have signed in.</string>
+    <string name="no_notification">No notifications available</string>
+    <string name="sign_in_notification">Notifications will show here once you have signed in.</string>
+    <!--
+    <string name="dont_have_account" tools:ignore="StringEscaping">Don't have an account?</string>
+-->
+    <string name="block_user">Blocked User</string>
+    <string name="first_name">First Name</string>
+    <string name="register">Register</string>
+    <string name="video_language">Video Language Selection</string>
+
+    <string name="intro_message">
+
+    </string>
+    <string name="msg_permission_setting_camera_storage">Smylee App requires to access camera service so you can upload best pictures, Turn on camera and storage permission from setting.</string>
+    <string name="msg_permission_rationale1">Smylee App requires to access camera service so you can upload best pictures, Turn on camera and storage permission from setting.</string>
+    <string name="msg_permission_rationale_storage">Smylee App requires to access file storage permission for better access.</string>
+    <string name="msg_camera_storage_setting">Smylee App requires to access camera service so you can upload best pictures, Turn on camera and storage permission from setting.</string>
+
+    <string name="photo">Photo</string>
+    <string name="video_">Video</string>
+    <string name="Home">Home</string>
+    <string name="Explore">Explore</string>
+    <string name="Notifications">Notifications</string>
+    <string name="Profile">Profile</string>
+    <string name="highspeed">High Speed Camera</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="msg_permission_rationale">To use this feature, Allow camera and storage permission.</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="take_video">Take Video</string>
+    <string name="choose_video">Choose Video</string>
+    <string name="choose_from_gallery">Choose from Gallery</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="privacypolicy">Privacy Policy</string>
+    <string name="validation_msg_video_60seconds">You can\'t upload video more then 60 seconds.</string>
+    <string name="settings">Settings</string>
+    <string name="open_settings">OPEN SETTINGS</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="play_stop">Play or Stop</string>
+    <string name="no_internet_available">No Internet Available</string>
+    <string name="something_went_wrong_try_again">Something went wrong , please try again !!!</string>
+    <string name="something_went_wrong">Something went wrong !!!</string>
+    <string name="internal_storage">Internal storage</string>
+    <string name="Verification">Verification</string>
+    <string name="block">Are you sure you want to block?</string>
+    <string name="VideoUpload">We are preparing the video and will notify you once it is uploaded.</string>
+    <string name="remove_audio">Are you sure to remove audio?</string>
+    <string name="Verification_txt">We have a sent you a one time password to your Email Id for email verification</string>
+
+    <string name="search">Search</string>
+    <string name="str_logout">Logout</string>
+    <string name="Block">Block</string>
+    <string name="BlockUser">Block User</string>
+    <string name="delete">Delete</string>
+    <string name="logout_txt">Are you sure you want to logout?</string>
+    <string name="search_result">Search Results</string>
+    <string name="people">People</string>
+    <string name="viewmore">View More</string>
+    <string name="followers">Followers</string>
+    <string name="followings">ಅನುಸರಿಸಲಾಗುತ್ತಿದೆ</string>
+    <string name="for_you">For You</string>
+    <string name="live">Live</string>
+    <string name="change_phone_number">ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ಬದಲಾಯಿಸಿ</string>
+    <string name="report">ವರದಿ</string>
+    <string name="validateSpam">ವರದಿ ಮಾಡಲು ದಯವಿಟ್ಟು ಸಮಸ್ಯೆಯನ್ನು ಆರಿಸಿ</string>
+
+    <string name="last_name">Last Name</string>
+    <string name="app_language_pref">ಅಪ್ಲಿಕೇಶನ್ ಭಾಷೆ</string>
+    <string name="termsconditions">Terms &amp; Conditions</string>
+
+    <!--validatins-->
+    <string name="fill_first_name">Please enter first name</string>
+    <string name="post_title">Please enter post title</string>
+    <string name="fill_birth_date">Please enter birth date</string>
+    <string name="following">Following</string>
+    <string name="old_psw">Old Password</string>
+    <string name="login_to_account">Login to your account</string>
+    <string name="new_psw">New Password</string>
+    <string name="select_languge">Please Select Video Language</string>
+    <string name="submit">Submit</string>
+    <string name="next">Next</string>
+    <string name="preparingvideo">Preparing video...</string>
+    <string name="confirm_psw">Confirm New Password</string>
+    <string name="searchVideos">Search videos or people</string>
+    <string name="follow">Follow</string>
+    <string name="share">Share</string>
+    <string name="comments">Comments</string>
+    <string name="flag">Flag</string>
+    <string name="deletepost">Are you sure you want to delete a post?</string>
+
+    <string name="username">Username</string>
+    <string name="no_comments">कोणत्याही टिप्पण्या आढळल्या नाहीत</string>
+    <string name="mutual">3 Mutual Friends</string>
+    <string name="write_comment">Write a comment...</string>
+    <string name="select_gender">Please select gender</string>
+    <string name="fill_last_name">Please enter last name</string>
+    <string name="email">Email</string>
+    <string name="viewAll">View all</string>
+    <string name="psw">Password</string>
+    <string name="countrycode">+91</string>
+    <string name="Phone">Phone</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="fill_valid_confirmpassword">Password and confirm password must be same</string>
+
+    <!--    <string name="menu_save">Save</string>-->
+    <!--    <string name="menu_reset">Reset</string>-->
+    <!--    <string name="menu_about">About</string>-->
+    <!--    <string name="menu_show_all_audio">Show All Audio</string>-->
+
+
+    <string name="fill_email">Please enter Email</string>
+    <string name="fill_phone">Please enter Phone Number</string>
+    <string name="validate_number">Please enter valid Phone Number</string>
+    <string name="forgot_psw">Forgot Password</string>
+    <string name="send">Send</string>
+    <string name="select_category_">Select Category</string>
+    <string name="validate_age">13+ ಬಳಕೆದಾರರು ಅಪ್ಲಿಕೇಶನ್ ಬಳಸಬಹುದು</string>
+    <string name="validate_age_">Your birthday date must come before taday\'s date</string>
+    <string name="fill_mobile">Please enter Mobile number</string>
+    <string name="fill_custmobile">Please enter customer mobile number</string>
+    <string name="enter_comment">Please Enter Comment</string>
+    <string name="fill_password">Please enter password</string>
+    <string name="fill_current_password">Please enter Old password</string>
+    <string name="fill_newpassword">Please enter new password</string>
+    <string name="pass_6_digit_validation">Password must be at least 6 characters</string>
+    <string name="current_pass_6_digit_validation">Existing Password must be at least 6 characters</string>
+    <string name="new_6_digit_validation">New Password must be at least 6 characters</string>
+    <string name="fill_cnfpassword">Please enter Confirm Password</string>
+    <string name="fill_valid_email">Please enter a valid Email</string>
+    <string name="fill_valid_mobile">Please enter a valid Mobile number</string>
+
+    <string name="select_video">Select Video</string>
+    <string name="compressing_video">Compressing video...</string>
+    <string name="cannot_retrieve_video">Cannot retrieve selected video</string>
+    <string name="trimming_your_video">Trimming your video…</string>
+    <string name="video_saved_at">Video saves at : $%1s</string>
+    <string name="done">Done</string>
+    <string name="male">Male</string>
+    <string name="check_connection">Please check your internet connection</string>
+    <string name="confirm_psw_reg">Confirm Password</string>
+    <string name="dob">Date of Birth</string>
+    <string name="welcome">Welcome</string>
+    <!--    <string name="datebefore">Your birthday date must come before taday &quots date</string>-->
+    <string name="female">Female</string>
+    <string name="str_video_share_intent">Select app to share video</string>
+    <string name="video_files_empty">Empty video file found! Please try again</string>
+    <string name="no_video_file_found">System not able to find the video file! Please try again</string>
+    <string name="error_downloading_audio">Error in downloading audio file! Please try later.</string>
+
+    <string name="fifteen_seconds">15 seconds</string>
+    <string name="thirty_seconds">30 seconds</string>
+    <string name="video_downloaded">Video saved to local storage</string>
+
+    <string-array name="filters">
+        <item>Default</item>
+        <item>Bilateral Blur</item>
+        <item>Box Blur</item>
+        <item>Brightness</item>
+        <item>Bulge Distortion</item>
+        <item>CGA Color Space</item>
+        <item>Contrast</item>
+        <item>Cross Hatch</item>
+        <item>Exposure</item>
+        <item>Filter Group</item>
+        <item>Gamma</item>
+        <item>Gaussian Filter</item>
+        <item>Gray Scale</item>
+        <item>Half Tone</item>
+        <item>Haze</item>
+        <item>Highlight Shadow</item>
+        <item>HUE</item>
+        <item>Invert</item>
+        <item>Look Up Table</item>
+        <item>Luminance</item>
+        <item>Luminance Threshold</item>
+        <item>Monochrome</item>
+        <item>Opacity</item>
+        <item>Pixelation</item>
+        <item>Posterize</item>
+        <item>RGB</item>
+        <item>Saturation</item>
+        <item>Sepia</item>
+        <item>Sharp</item>
+        <item>Solarize</item>
+        <item>Sphere Refraction</item>
+        <item>Swirl</item>
+        <item>Tone</item>
+        <item>Tone Curve</item>
+        <item>Vibrance</item>
+        <item>Vignette</item>
+        <item>Weak Pixel</item>
+        <item>White Balance</item>
+        <item>Zoom Blur</item>
+    </string-array>
+
+    <!--Telugu translation-->
+    <string name="ringdroid_app_name">Ringdroid</string>
+
+    <!--
+     Main / media select activity
+     -->
+
+    <string name="main_activity_label">Ringdroid</string>
+
+    <string name="search_edit_box">Search</string>
+
+    <string name="button_start_record_activity">Record New</string>
+
+    <string name="sdcard_readonly">Sorry, the SD Card is mounted as read-only and Ringdroid requires it to be writable.</string>
+    <string name="no_sdcard">Sorry, Ringdroid can\'t run unless you have an SD Card inserted.</string>
+    <string name="sdcard_shared">Sorry, Ringdroid can\'t run while your handset is mounted as a USB device.</string>
+
+    <string name="button_options">Options</string>
+
+    <!--
+     Edit activity
+     -->
+
+    <!-- Labels next to the start and end time edit boxes -->
+    <string name="start_label">Start:</string>
+    <string name="end_label">End:</string>
+
+    <string name="edit_intent">Edit</string>
+
+    <string name="time_seconds">seconds</string>
+
+    <!-- After you save a notification or ringtone and have more options
+         for what to do with them -->
+    <string name="what_to_do_with_ringtone">Saved!  Make this your default ringtone or assign it to a contact?</string>
+    <string name="set_default_notification">Saved!  Make this your default notification?</string>
+
+    <string name="make_default_ringtone_button">Make Default</string>
+    <string name="choose_contact_ringtone_button">Assign to Contact</string>
+    <string name="do_nothing_with_ringtone_button">Close</string>
+
+    <!-- Progress dialog text for loading, recording, or saving... -->
+    <string name="progress_dialog_loading">Loading…</string>
+    <string name="progress_dialog_recording">Recording…</string>
+    <string name="progress_dialog_saving">Saving…</string>
+    <string name="progress_dialog_cancel">Cancel</string>
+    <string name="progress_dialog_stop">Stop</string>
+
+    <!-- Image button descriptions for accessibility -->
+
+    <string name="start_marker">Start marker</string>
+    <string name="end_marker">End marker</string>
+    <string name="rewind">Rewind</string>
+    <string name="play">Play</string>
+    <!--    <string name="stop">Stop</string>-->
+    <string name="ffwd">Fast forward</string>
+    <string name="zoom_in">Zoom In</string>
+    <string name="zoom_out">Zoom Out</string>
+    <string name="save_button">Save</string>
+
+    <!--
+     Menu items
+     -->
+
+    <string name="menu_save">Save</string>
+    <string name="menu_reset">Reset</string>
+    <string name="menu_about">About</string>
+    <string name="menu_show_all_audio">Show All Audio</string>
+
+    <!--
+     Context menu items
+     -->
+
+    <string name="context_menu_edit">Edit</string>
+    <string name="context_menu_delete">Delete</string>
+    <string name="context_menu_default_ringtone">Set as Default Ringtone</string>
+    <string name="context_menu_contact">Assign to Contact</string>
+    <string name="context_menu_default_notification">Set as Default Notification</string>
+
+    <!--
+     File Save dialog
+     -->
+
+    <string name="file_save_title">Save As:</string>
+    <string name="file_save_button_save">Save</string>
+    <string name="file_save_button_cancel">Cancel</string>
+
+    <string name="ringtone_type_label">Type:</string>
+
+    <string name="type_music">Music</string>
+    <string name="type_alarm">Alarm</string>
+    <string name="type_notification">Notification</string>
+    <string name="type_ringtone">Ringtone</string>
+
+    <string name="ringtone_name_label">Name:</string>
+
+    <string name="artist_name">Ringdroid</string>
+
+    <!--
+     Delete confirmation dialog
+     -->
+
+    <string name="delete_ringtone">Delete Ringtone</string>
+    <string name="delete_alarm">Delete Alarm</string>
+    <string name="delete_notification">Delete Notification</string>
+    <string name="delete_music">Delete Music</string>
+    <string name="delete_audio">Delete Audio</string>
+
+    <string name="confirm_delete_ringdroid">Are you sure?</string>
+    <string name="confirm_delete_non_ringdroid">Are you sure?  This file was not created using Ringdroid!</string>
+
+    <string name="delete_ok_button">Delete</string>
+    <string name="delete_cancel_button">Cancel</string>
+
+    <string name="delete_failed">Unable to delete file</string>
+
+    <!--
+     Success and error messages
+     -->
+
+    <string name="alert_title_success">Success</string>
+    <string name="alert_title_failure">Error</string>
+    <string name="alert_ok_button">OK</string>
+    <string name="alert_yes_button">Yes, please!</string>
+    <string name="alert_no_button">No, thanks.</string>
+
+    <string name="save_success_message">Saved!</string>
+    <string name="default_ringtone_success_message">Changed default ringtone</string>
+    <string name="default_notification_success_message">Changed default notification sound</string>
+    <string name="play_error">Unable to play this media file</string>
+    <string name="no_unique_filename">Unable to find unique filename</string>
+    <string name="record_error">Error recording audio</string>
+    <string name="too_small_error">Can\'t save a file that small, try making it longer.</string>
+    <string name="write_error">Error writing file</string>
+    <string name="read_error">Error reading file</string>
+
+    <string name="no_space_error">Your SD card is full, there is not enough space to save this file.</string>
+
+    <string name="bad_extension_error">Sorry, Ringdroid is not yet able to edit files of type</string>
+    <string name="no_extension_error">Sorry, Ringdroid can\'t edit a file if it doesn\'t have an extension like .mp3 or .wav</string>
+
+    <!--
+     Choose Contact Activity
+     -->
+
+    <string name="choose_contact_title">Assign ringtone to which contact?</string>
+    <string name="success_contact_ringtone">Successfully assigned ringtone to:</string>
+
+    <!--
+     About
+     -->
+
+    <string name="about_title">About Ringdroid</string>
+    <string name="about_text"><![CDATA[Use Ringdroid to edit MP3, OGG, WAV, AAC, and AMR audio files and create ringtones, alarms, and notifications from them.\n\nTip: copy audio files to your SD card using a USB cable.\n\nTip: tap anywhere on the waveform to start playing at that position.\n\nTip: while playing, tap the word Start or End to quickly set the start and end markers to the current playback time.\n\nVersion %s\n\nDeveloper: Dominic Mazzoni, Nicolas Faralli\nGraphics: Joseph Wain\nSupport and evangelizing: Eugene Koh\nEnhancements: Dan Klufas\n\nRingdroid is free software, distributed under the Apache 2.0 license.  Source code is on github.com/google/ringdroid\n]]></string>
+
+
+</resources>

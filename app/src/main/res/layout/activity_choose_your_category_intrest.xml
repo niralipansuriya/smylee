@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_my_choice_new"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_25sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/ll_header"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:textSize="@dimen/_25sdp"
+                android:fontFamily="@font/avenir_std_black"
+                android:textColor="@color/black"
+                android:text="@string/chooseintrest"
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:textSize="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="@font/avenirltstd_book"
+                android:textColor="@color/light_purple"
+                android:text="@string/recommedations"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvIntrestCategory"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/ll_header"
+            android:layout_above="@+id/ll_update_delete"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:spanCount="2"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:descendantFocusability="beforeDescendants"
+            android:divider="@null" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/ll_header"
+            android:layout_above="@+id/ll_update_delete"
+            android:layout_marginTop="@dimen/_25sdp">
+
+            <smylee.app.custom.FlowLayout
+                android:id="@+id/flowLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:flChildSpacing="auto"
+                app:flRowSpacing="@dimen/_10sdp"
+                app:flChildSpacingForLastRow="@dimen/_10sdp"
+                app:itemSpacing="@dimen/_10sdp"
+                app:flMinChildSpacing="@dimen/_10sdp" />
+            <!--app:flChildSpacingForLastRow="align"-->
+
+        </ScrollView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_nodata"
+            android:layout_width="match_parent"
+            android:textSize="@dimen/_12sdp"
+            android:gravity="center"
+            android:text="@string/no_data_found"
+            android:fontFamily="@font/avenirltstd_book"
+            android:visibility="gone"
+            android:textColor="@color/black"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp" />
+
+        <LinearLayout
+            android:id="@+id/ll_update_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/_25sdp"
+            android:visibility="visible">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_gravity="bottom"
+                android:background="@drawable/button_border"
+                android:text="@string/next"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

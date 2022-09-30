@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smylee</string>
+    <string name="permission_request">କ୍ୟାମେରା ଏବଂ ଅଡିଓ ରେକର୍ଡିଂ ପାଇଁ ଏହି ଆପ୍ ଅନୁମତି ଆବଶ୍ୟକ କରେ |</string>
+    <string name="camera_error">ଏହି ଡିଭାଇସ୍ କ୍ୟାମେରା 2 API କୁ ସମର୍ଥନ କରେନାହିଁ |</string>
+    <string name="message_need_permission">ଅନୁମତି ଆବଶ୍ୟକ |</string>
+    <string name="message_permission">ଏହି ଆପ୍ ଏହି ବ feature ଶିଷ୍ଟ୍ୟ ବ୍ୟବହାର କରିବାକୁ ଅନୁମତି ଆବଶ୍ୟକ କରେ | ଆପଣ ସେମାନଙ୍କୁ ଆପ୍ ସେଟିଂସମୂହରେ ମଞ୍ଜୁର କରିପାରିବେ |</string>
+    <string name="title_go_to_setting">ଗୋଟୋ ସେଟିଙ୍ଗ୍ |</string>
+    <string name="action_settings">ସେଟିଂସମୂହ</string>
+    <string name="create_account">ଆପଣଙ୍କର ଖାତା ସୃଷ୍ଟି କରନ୍ତୁ |</string>
+    <string name="create_post">ନୂତନ ପୋଷ୍ଟ ସୃଷ୍ଟି କରନ୍ତୁ |</string>
+    <string name="validate_otp">ଦୟାକରି Otp ପ୍ରବେଶ କରନ୍ତୁ |</string>
+    <string name="account">ପୂର୍ବରୁ ଏକ ଖାତା ଅଛି କି?</string>
+    <string name="select_category">ଦୟାକରି ବର୍ଗ ଚୟନ କରନ୍ତୁ |</string>
+    <string name="select_language">ଦୟାକରି ଭିଡିଓ ଭାଷା ଚୟନ କରନ୍ତୁ |</string>
+    <string name="record">ରେକର୍ଡ କରନ୍ତୁ |</string>
+    <string name="menu_save">Save</string>
+    <string name="update">Update</string>
+    <string name="update_app">New version available, Would you like to update app?</string>
+    <string name="following_msg">Following user videos will show here once you have signed in and followed the other user</string>
+
+    <string name="menu_reset">Reset</string>
+    <string name="agree1">ମୁଁ ପ read ିଛି ଏବଂ ସର୍ତ୍ତାବଳୀରେ ରାଜି ଅଛି |</string>
+    <string name="agree_validation">ଦୟାକରି ସର୍ତ୍ତ ଏବଂ ସର୍ତ୍ତଗୁଡିକରେ ରାଜି ହୁଅନ୍ତୁ</string>
+    <string name="selectdate">Select Date</string>
+    <string name="facebook_app_id">134922705142693</string>
+    <string name="signup_back_msg">You have not completed the registration steps, if you go back then you will be logged out</string>
+    <string name="fbvideoshare">Share Post To FaceBook</string>
+    <string name="instvideoshare">Share Post To Instagram</string>
+    <string name="rate_app">ଆପ୍ ରେଟ୍ କରନ୍ତୁ |</string>
+    <string name="alert_rating_review">If you have already cancelled the rating dialog or already provided your ratings then you need go to play store and provide your valuable feedback or update your ratings.</string>
+
+    <string name="menu_about">About</string>
+    <string name="menu_show_all_audio">Show All Audio</string>
+    <string name="swipe">ସ୍ୱାଇପ୍ ଅପ୍ କରନ୍ତୁ |</string>
+    <string name="change_phonne_validation">ଦୟାକରି ନୂତନ ଫୋନ୍ ନମ୍ବର ପ୍ରବେଶ କରନ୍ତୁ |</string>
+    <string name="filevalidation">ମନୋନୀତ ଭିଡିଓ ଫାଇଲ୍ ବିଦ୍ୟମାନ ନାହିଁ |</string>
+    <string name="bigfilevalidation">ସିଲେକ୍ଟ ହୋଇଥିବା ଭିଡିଓ ଫାଇଲ୍ ବଡ ଅଟେ | </string>
+    <string name="comment">ମନ୍ତବ୍ୟ ଦିଅନ୍ତୁ |</string>
+
+
+    <string name="self_post_msg">କ post ଣସି ପୋଷ୍ଟ ଉପଲବ୍ଧ ନାହିଁ |</string>
+    <string name="other_post_msg">ଏହି ଉପଭୋକ୍ତା ପାଇଁ କ post ଣସି ପୋଷ୍ଟ ଉପଲବ୍ଧ ନାହିଁ |</string>
+    <string name="self_following_msg">ଆପଣ ଏପର୍ଯ୍ୟନ୍ତ କ user ଣସି ଉପଭୋକ୍ତାଙ୍କୁ ଅନୁସରଣ କରୁନାହାଁନ୍ତି |</string>
+    <string name="self_follower_msg">ଆପଣଙ୍କର ଏପର୍ଯ୍ୟନ୍ତ କ no ଣସି ଅନୁସରଣକାରୀ ନାହାଁନ୍ତି |</string>
+    <string name="block_msg">ଆପଣ କ any ଣସି ଉପଭୋକ୍ତାଙ୍କୁ ଅବରୋଧ କରିନାହାଁନ୍ତି |</string>
+    <string name="other_following_msg">ଏହି ଉପଭୋକ୍ତା ଅନ୍ୟ କ user ଣସି ଉପଭୋକ୍ତାଙ୍କୁ ଅନୁସରଣ କରୁନାହାଁନ୍ତି |</string>
+    <string name="other_follower_msg">ଏହି ଉପଭୋକ୍ତାଙ୍କର ଏପର୍ଯ୍ୟନ୍ତ କ any ଣସି ଅନୁସରଣକାରୀ ନାହାଁନ୍ତି |</string>
+
+
+    <string name="album">ଆଲବମ୍</string>
+    <string name="category">ବର୍ଗ</string>
+    <string name="discover">ଆବିଷ୍କାର କରନ୍ତୁ |</string>
+    <string name="trending">ଟ୍ରେଣ୍ଡିଂ</string>
+    <string name="uploading_video">ଭିଡିଓ ଅପଲୋଡ୍ କରୁଛି ...</string>
+    <string name="language">ଭାଷା</string>
+    <string name="stop">ବନ୍ଦ କର |</string>
+    <string name="logout">ପ୍ରସ୍ଥାନ କର</string>
+    <string name="no_data_found">କ content ଣସି ବିଷୟବସ୍ତୁ ଉପଲବ୍ଧ ନାହିଁ | ଦୟାକରି ପରେ ଚେଷ୍ଟା କରନ୍ତୁ |</string>
+    <string name="change_psw">ପାସୱାର୍ଡ ପରିବର୍ତ୍ତନ କରନ୍ତୁ</string>
+    <string name="verify">ଆପଣଙ୍କର ଫୋନ୍ ନମ୍ବର ଯାଞ୍ଚ କରନ୍ତୁ |</string>
+    <string name="otptext">ଥରେ ଆପଣଙ୍କ ଫୋନ୍ ନମ୍ବରକୁ ପାସୱାର୍ଡ (OTP) ପଠାଯାଇଛି |</string>
+    <string name="add_title">ଆଖ୍ୟା ଯୋଡିବାକୁ ଟ୍ୟାପ୍ କରନ୍ତୁ |</string>
+    <string name="verify_txt">ଯାଞ୍ଚ କରନ୍ତୁ |</string>
+    <string name="picture">ଛବି</string>
+    <string name="Resend">ପଠାନ୍ତୁ</string>
+    <string name="video">ଭିଡିଓ କ୍ୟାପଚର କରନ୍ତୁ |</string>
+    <string name="description_info">ସୂଚନା</string>
+    <string name="forgot_password">ପାସୱାର୍ଡ଼ ଭୁଲି ଗଲେ କି?</string>
+    <string name="emailhint">ଇମେଲ୍ କରନ୍ତୁ |</string>
+    <string name="pswhint">ପାସୱାର୍ଡ</string>
+    <string name="loginwith">କିମ୍ବା ସହିତ ଲଗ୍ ଇନ୍ କରନ୍ତୁ |</string>
+    <string name="Login">ଭିତରକୁ ଯାଉ</string>
+    <string name="signIN">ଚୁକ୍ତି କରିବା</string>
+    <string name="chooseintrest">ଆପଣଙ୍କର ବାଛନ୍ତୁ | \nଅନ୍ତ est କରଣ |</string>
+    <string name="chooselanguage">ଭିଡିଓ ଭାଷା ବାଛନ୍ତୁ | \nପସନ୍ଦ</string>
+    <string name="chooseapplanguage">ପ୍ରୟୋଗ ବାଛନ୍ତୁ | \nଭାଷା</string>
+    <string name="skip">ଛାଡିଦିଅ |</string>
+    <string name="recommedations">ବ୍ୟକ୍ତିଗତ ଭିଡିଓ ସୁପାରିଶ ପ୍ରାପ୍ତ କରନ୍ତୁ |</string>
+    <string name="language_recommedations">ଆପଣଙ୍କର ଭିଡିଓ ଭାଷା ପସନ୍ଦ ବାଛନ୍ତୁ |</string>
+    <string name="app_language_recommedations">ଆପଣଙ୍କର ଭାଷା ପସନ୍ଦ ବାଛନ୍ତୁ |</string>
+    <string name="notifications">ବିଜ୍ଞପ୍ତିଗୁଡିକ</string>
+    <string name="use">ବ୍ୟବହାର କରନ୍ତୁ |</string>
+    <string name="add">ଯୋଡନ୍ତୁ |</string>
+    <string name="post">ପୋଷ୍ଟଗୁଡିକ</string>
+    <string name="change_language">ଭିଡିଓ ଭାଷା ପରିବର୍ତ୍ତନ କରନ୍ତୁ |</string>
+    <string name="video_language_prefrence">ଭିଡିଓ ଭାଷା</string>
+    <string name="change_category">ଆଗ୍ରହ ପରିବର୍ତ୍ତନ କରନ୍ତୁ |</string>
+    <string name="change_phone_number">ଫୋନ୍ ନମ୍ବର ପରିବର୍ତ୍ତନ କରନ୍ତୁ |</string>
+    <string name="edt_profile">ପ୍ରୋଫାଇଲ୍ ଏଡ଼ିଟ୍ କରନ୍ତୁ</string>
+    <string name="mypost">ମୋର ପୋଷ୍ଟଗୁଡିକ</string>
+    <string name="unblock">ଅନାବରଣ କରନ୍ତୁ |</string>
+    <string name="privacy_policy">ଗୋପନୀୟତା ନୀତି</string>
+    <string name="blocked_user">ଅବରୋଧିତ ଉପଯୋଗକର୍ତ୍ତା |</string>
+    <string name="dont_have_account">ଏକ ଖାତା ନାହିଁ?</string>
+    <string name="profilelogin">ଆପଣ ସାଇନ୍ ଇନ୍ କରିବା ପରେ ପ୍ରୋଫାଇଲ୍ ଏଠାରେ ଦେଖାଇବ |</string>
+    <string name="no_notification">କ No ଣସି ବିଜ୍ଞପ୍ତି ଉପଲବ୍ଧ ନାହିଁ |</string>
+    <string name="sign_in_notification">ଆପଣ ସାଇନ୍ ଇନ୍ କରିବା ପରେ ବିଜ୍ଞପ୍ତି ଏଠାରେ ଦେଖାଯିବ |</string>
+    <!--
+    <string name="dont_have_account" tools:ignore="StringEscaping">Don't have an account?</string>
+-->
+    <string name="block_user">ଅବରୋଧିତ ଉପଯୋଗକର୍ତ୍ତା |</string>
+    <string name="first_name">ପ୍ରଥମ ନାମ</string>
+    <string name="register">ପଞ୍ଜିକରଣ କର |</string>
+    <string name="video_language">ଭିଡିଓ ଭାଷା ଚୟନ</string>
+
+    <string name="intro_message">
+
+    </string>
+    <string name="msg_permission_setting_camera_storage">ସ୍ମିଲି ଆପ୍ କ୍ୟାମେରା ସେବାକୁ ପ୍ରବେଶ କରିବାକୁ ଆବଶ୍ୟକ କରେ ଯାହା ଦ୍ you ାରା ଆପଣ ସର୍ବୋତ୍ତମ ଚିତ୍ର ଅପଲୋଡ୍ କରିପାରିବେ, କ୍ୟାମେରା ଟର୍ନ୍ ଅନ୍ କରନ୍ତୁ ଏବଂ ସେଟିଂରୁ ଷ୍ଟୋରେଜ୍ ଅନୁମତି |</string>
+    <string name="msg_permission_rationale1">ସ୍ମିଲି ଆପ୍ କ୍ୟାମେରା ସେବାକୁ ପ୍ରବେଶ କରିବାକୁ ଆବଶ୍ୟକ କରେ ଯାହା ଦ୍ you ାରା ଆପଣ ସର୍ବୋତ୍ତମ ଚିତ୍ର ଅପଲୋଡ୍ କରିପାରିବେ, କ୍ୟାମେରା ଟର୍ନ୍ ଅନ୍ କରନ୍ତୁ ଏବଂ ସେଟିଂରୁ ଷ୍ଟୋରେଜ୍ ଅନୁମତି |</string>
+    <string name="msg_permission_rationale_storage">ଉତ୍ତମ ପ୍ରବେଶ ପାଇଁ ସ୍ମାଇଲ୍ ଆପ୍ ଫାଇଲ୍ ଷ୍ଟୋରେଜ୍ ଅନୁମତି ଆକ୍ସେସ୍ କରିବା ଆବଶ୍ୟକ କରେ |</string>
+    <string name="msg_camera_storage_setting">ସ୍ମିଲି ଆପ୍ କ୍ୟାମେରା ସେବାକୁ ପ୍ରବେଶ କରିବାକୁ ଆବଶ୍ୟକ କରେ ଯାହା ଦ୍ you ାରା ଆପଣ ସର୍ବୋତ୍ତମ ଚିତ୍ର ଅପଲୋଡ୍ କରିପାରିବେ, କ୍ୟାମେରା ଟର୍ନ୍ ଅନ୍ କରନ୍ତୁ ଏବଂ ସେଟିଂରୁ ଷ୍ଟୋରେଜ୍ ଅନୁମତି |</string>
+
+    <string name="photo">ଫଟୋ</string>
+    <string name="video_">ଭିଡିଓ</string>
+    <string name="Home">ଘର</string>
+    <string name="Explore">ଏକ୍ସପ୍ଲୋର୍ କରନ୍ତୁ |</string>
+    <string name="Notifications">ବିଜ୍ଞପ୍ତିଗୁଡିକ</string>
+    <string name="Profile">ପ୍ରୋଫାଇଲ୍</string>
+    <string name="highspeed">ହାଇ ସ୍ପିଡ୍ କ୍ୟାମେରା |</string>
+    <string name="ok">ଠିକ୍ ଅଛି</string>
+    <string name="cancel">ବାତିଲ୍ କରନ୍ତୁ |</string>
+    <string name="msg_permission_rationale">ଏହି ବ feature ଶିଷ୍ଟ୍ୟ ବ୍ୟବହାର କରିବାକୁ, କ୍ୟାମେରା ଏବଂ ଷ୍ଟୋରେଜ୍ ଅନୁମତି ଦିଅନ୍ତୁ |</string>
+    <string name="take_photo">ଫଟୋ ନିଅନ୍ତୁ |</string>
+    <string name="take_video">ଭିଡିଓ ନିଅନ୍ତୁ |</string>
+    <string name="choose_video">ଭିଡିଓ ବାଛନ୍ତୁ |</string>
+    <string name="choose_from_gallery">ଗ୍ୟାଲେରୀରୁ ବାଛନ୍ତୁ |</string>
+    <string name="choose_image">ପ୍ରତିଛବି ବାଛନ୍ତୁ |</string>
+    <string name="privacypolicy">ଗୋପନୀୟତା ନୀତି</string>
+    <string name="validation_msg_video_60seconds">ଆପଣ 60 ସେକେଣ୍ଡରେ ଅଧିକ ଭିଡିଓ ଅପଲୋଡ୍ କରିପାରିବେ ନାହିଁ |</string>
+    <string name="settings">ସେଟିଂସମୂହ</string>
+    <string name="open_settings">ସେଟିଂ ଖୋଲନ୍ତୁ |</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="play_stop">ଖେଳ କିମ୍ବା ବନ୍ଦ କର |</string>
+    <string name="no_internet_available">କ Internet ଣସି ଇଣ୍ଟରନେଟ୍ ଉପଲବ୍ଧ ନାହିଁ |</string>
+    <string name="something_went_wrong_try_again">କିଛି ଭୁଲ ହୋଇଗଲା, ଦୟାକରି ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ !!!</string>
+    <string name="something_went_wrong">କିଛି ଭୁଲ ହୋଇ ଗଲା !!!</string>
+    <string name="internal_storage">ଆଭ୍ୟନ୍ତରୀଣ ଭଣ୍ଡାର |</string>
+    <string name="Verification">ଯା ification ୍ଚ</string>
+    <string name="block">ଆପଣ ଅବରୋଧ କରିବାକୁ ଚାହୁଁଛନ୍ତି କି?</string>
+    <string name="audioExtract">ବିଦ୍ୟମାନ ଭିଡିଓରୁ ଆପଣ ଅଡିଓ ଚୟନ କରିଛନ୍ତି | ଆପଣ ଏହାକୁ ଭିଡିଓରେ ପ୍ରୟୋଗ କରିବାକୁ ଚାହୁଁଛନ୍ତି କି?</string>
+    <string name="VideoUpload">ଆମେ ଭିଡିଓ ପ୍ରସ୍ତୁତ କରୁଛୁ ଏବଂ ଏହା ଅପଲୋଡ୍ ହେବା ପରେ ଆପଣଙ୍କୁ ଜଣାଇବୁ |</string>
+    <string name="remove_audio">ଆପଣ ଅଡିଓ ଅପସାରଣ କରିବାକୁ ନିଶ୍ଚିତ କି?</string>
+    <string name="Verification_txt">ଇମେଲ ଯାଞ୍ଚ ପାଇଁ ଆପଣଙ୍କ ଇମେଲ ଆଇଡିକୁ ଆମେ ଆପଣଙ୍କୁ ଗୋଟିଏ ଥର ପାସୱାର୍ଡ ପଠାଇଛୁ |</string>
+
+    <string name="search">ସନ୍ଧାନ କର |</string>
+    <string name="str_logout">ପ୍ରସ୍ଥାନ କର</string>
+    <string name="Block">ଅବରୋଧ କରନ୍ତୁ |</string>
+    <string name="BlockUser">ଉପଯୋଗକର୍ତ୍ତାଗଣଙ୍କୁ ଅବରୋଧ କରନ୍ତୁ |</string>
+    <string name="delete">ବିଲୋପ କରନ୍ତୁ |</string>
+    <string name="logout_txt">ଆପଣ ନିଶ୍ଚିତ କି ଆପଣ ଲଗଆଉଟ୍ କରିବାକୁ ଚାହୁଁଛନ୍ତି?</string>
+    <string name="search_result">ସନ୍ଧାନ ଫଳାଫଳ |</string>
+    <string name="people">ଲୋକମାନେ</string>
+    <string name="viewmore">ଅଧିକ ଦେଖନ୍ତୁ </string>
+    <string name="followers">ଅନୁସରଣକାରୀ</string>
+    <string name="followings">ନିମ୍ନଲିଖିତ</string>
+    <string name="report_issue">ଏକ ସମସ୍ୟା ରିପୋର୍ଟ କରନ୍ତୁ |</string>
+    <string name="report_header">ସମସ୍ୟା ବୁ understand ିବାରେ ଆମକୁ ସାହାଯ୍ୟ କରନ୍ତୁ ଏହି ପୋଷ୍ଟ ସହିତ କ’ଣ ଚାଲିଛି?</string>
+    <string name="for_you">ତୁମ ପାଇଁ</string>
+    <string name="spam_1">ସନ୍ଦେହଜନକ କିମ୍ବା ସ୍ପାମ୍ |</string>
+    <string name="spam_2">ସମ୍ବେଦନଶୀଳ ଫଟୋ କିମ୍ବା ଭିଡିଓ |</string>
+    <string name="spam_3">ଅପମାନଜନକ କିମ୍ବା କ୍ଷତିକାରକ |</string>
+    <string name="spam_4">ନଗ୍ନତା କିମ୍ବା ଆପତ୍ତିଜନକ ବିଷୟବସ୍ତୁ |</string>
+    <string name="spam_5">ହିଂସା</string>
+    <string name="report">ରିପୋର୍ଟ କରନ୍ତୁ |</string>
+    <string name="spam_6">ଆତ୍ମ-କ୍ଷତି କିମ୍ବା ଆତ୍ମହତ୍ୟାର ଉଦ୍ଦେଶ୍ୟ ପ୍ରକାଶ କରେ |</string>
+    <string name="live">ଲାଇଭ୍ |</string>
+    <string name="last_name">ଶେଷ ନାମ</string>
+    <string name="validateSpam">ରିପୋର୍ଟ କରିବାକୁ ଦୟାକରି ଏକ ସମସ୍ୟା ବାଛନ୍ତୁ |</string>
+    <string name="app_language_pref">ପ୍ରୟୋଗ ଭାଷା |</string>
+    <string name="termsconditions">ସର୍ତ୍ତାବଳୀ &amp; ସର୍ତ୍ତଗୁଡିକ</string>
+
+    <!--validatins-->
+    <string name="fill_first_name">ଦୟାକରି ପ୍ରଥମ ନାମ ପ୍ରବେଶ କରନ୍ତୁ |</string>
+    <string name="post_title">ଦୟାକରି ପୋଷ୍ଟ ଟାଇଟଲ୍ ପ୍ରବେଶ କରନ୍ତୁ |</string>
+    <string name="fill_birth_date">ଦୟାକରି ଜନ୍ମ ତାରିଖ ପ୍ରବେଶ କରନ୍ତୁ |</string>
+    <string name="following">ନିମ୍ନଲିଖିତ</string>
+    <string name="old_psw">ପୁରୁଣା ପ୍ରବେଶ ସବ୍ଦ</string>
+    <string name="login_to_account">ଆପଣଙ୍କର ଖାତାକୁ ଲଗ୍ଇନ୍ କରନ୍ତୁ</string>
+    <string name="new_psw">ନୁତନ ପାସ୍ୱାର୍ଡ</string>
+    <string name="select_languge">ଦୟାକରି ଭିଡିଓ ଭାଷା ଚୟନ କରନ୍ତୁ |</string>
+    <string name="submit">ଦାଖଲ କରନ୍ତୁ |</string>
+    <string name="next">ପରବର୍ତ୍ତୀ</string>
+    <string name="preparingvideo">ଭିଡିଓ ପ୍ରସ୍ତୁତ କରୁଛି ...</string>
+    <string name="confirm_psw">ନୂତନ ପାସୱାର୍ଡ ନିଶ୍ଚିତ କରନ୍ତୁ |</string>
+    <string name="searchVideos">ଭିଡିଓ କିମ୍ବା ଲୋକଙ୍କୁ ଖୋଜ |</string>
+    <string name="follow">ଅନୁସରଣ କରନ୍ତୁ</string>
+    <string name="share">ଅଂଶୀଦାର କରନ୍ତୁ |</string>
+    <string name="comments">ମନ୍ତବ୍ୟଗୁଡିକ</string>
+    <string name="flag">ପତାକା</string>
+    <string name="deletepost">ଆପଣ ନିଶ୍ଚିତ କି ଆପଣ ଏକ ପୋଷ୍ଟ ବିଲୋପ କରିବାକୁ ଚାହୁଁଛନ୍ତି କି?</string>
+
+    <string name="username">ଉପଯୋଗକର୍ତ୍ତା ନାମ</string>
+    <string name="no_comments">କ Comments ଣସି ମନ୍ତବ୍ୟ ମିଳିଲା ନାହିଁ |</string>
+    <string name="mutual">3 Mutual Friends</string>
+    <string name="write_comment">ଏକ ମନ୍ତବ୍ୟ ଲେଖନ୍ତୁ ...</string>
+    <string name="select_gender">ଦୟାକରି ଲିଙ୍ଗ ଚୟନ କରନ୍ତୁ |</string>
+    <string name="fill_last_name">ଦୟାକରି ଶେଷ ନାମ ପ୍ରବେଶ କରନ୍ତୁ |</string>
+    <string name="email">ଇମେଲ୍ କରନ୍ତୁ |</string>
+    <string name="viewAll">ସମସ୍ତ ଦେଖନ୍ତୁ |</string>
+    <string name="psw">ପାସୱାର୍ଡ</string>
+    <string name="countrycode">+91</string>
+    <string name="Phone">Phone</string>
+    <string name="facebook_link">ଦୟାକରି ବ valid ଧ FaceBook ପ୍ରୋଫାଇଲ୍ ଲିଙ୍କ୍ ପ୍ରବେଶ କରନ୍ତୁ |</string>
+    <string name="instagram_link">ଦୟାକରି ବ valid ଧ ଇନଷ୍ଟାଗ୍ରାମ ପ୍ରୋଫାଇଲ୍ ଲିଙ୍କ୍ ପ୍ରବେଶ କରନ୍ତୁ |</string>
+    <string name="youtube_link">ଦୟାକରି ବ valid ଧ ୟୁଟ୍ୟୁବ୍ ପ୍ରୋଫାଇଲ୍ ଲିଙ୍କ୍ ପ୍ରବେଶ କରନ୍ତୁ |</string>
+    <string name="phone_number">ଫୋନ୍ ନମ୍ବର</string>
+    <string name="proceed">ଅଗ୍ରଗତି କର |</string>
+    <string name="str1">ଆପଣଙ୍କର ଫୋନ୍ ନମ୍ବର ପରିବର୍ତ୍ତନ କରିବା ଦ୍ୱାରା ଆପଣଙ୍କର ଆକାଉଣ୍ଟ୍ ସୂଚନା, ଗୋଷ୍ଠୀ ଏବଂ ସେଟିଂସମୂହ ସ୍ଥାନାନ୍ତରିତ ହେବ |
+</string>
+    <string name="str2">ଅଗ୍ରଗତି କରିବା ପୂର୍ବରୁ, ଦୟାକରି ନିଶ୍ଚିତ କରନ୍ତୁ ଯେ ଆପଣ ଆପଣଙ୍କର ନୂତନ ନମ୍ବରରେ SMS କିମ୍ବା କଲ୍ ଗ୍ରହଣ କରିବାକୁ ସକ୍ଷମ ଅଟନ୍ତି |</string>
+    <string name="str3">ଯଦି ଆପଣଙ୍କର ଉଭୟ ନୂଆ ଫୋନ୍ ଏବଂ ଏକ ନୂଆ ନମ୍ବର ଅଛି, ପ୍ରଥମେ ଆପଣଙ୍କର ପୁରୁଣା ଫୋନରେ ନମ୍ବର ବଦଳାନ୍ତୁ |</string>
+    <string name="fill_valid_confirmpassword">ନୂତନ ପାସୱାର୍ଡ ଏବଂ ପାସୱାର୍ଡ ନିଶ୍ଚିତ କରନ୍ତୁ ମେଳ କରନ୍ତୁ ନାହିଁ |</string>
+
+    <string name="fill_email">ଦୟାକରି ଆପଣଙ୍କର ଇମେଲ୍ ଠିକଣା ପ୍ରବେଶ କରନ୍ତୁ |</string>
+    <string name="fill_phone">ଦୟାକରି ଫୋନ୍ ନମ୍ବର ପ୍ରବେଶ କରନ୍ତୁ |</string>
+    <string name="currentphone">ଦୟାକରି ସାମ୍ପ୍ରତିକ ଫୋନ୍ ନମ୍ବର ପ୍ରବେଶ କରନ୍ତୁ |</string>
+    <string name="validate_number">ଦୟାକରି ବ valid ଧ ଫୋନ୍ ନମ୍ବର ପ୍ରବେଶ କରନ୍ତୁ |</string>
+    <string name="forgot_psw">ପାସୱାର୍ଡ଼ ଭୁଲି ଗଲେ କି</string>
+    <string name="change_phone">ସଂଖ୍ୟା ପରିବର୍ତ୍ତନ କରନ୍ତୁ |</string>
+    <string name="send">ପଠାନ୍ତୁ |</string>
+    <string name="select_category_">ବର୍ଗ ଚୟନ କରନ୍ତୁ |</string>
+    <string name="validate_age">ବ୍ୟବହାରକାରୀମାନେ 13+ ଆପ୍ ବ୍ୟବହାର କରିପାରିବେ |</string>
+    <string name="validate_age_">ତୁମର ଜନ୍ମଦିନ ତାରିଖ ନିଶ୍ଚିତ ଭାବରେ ତାଡେ ତାରିଖ ପୂର୍ବରୁ ଆସିବ |</string>
+    <string name="fill_mobile">ଦୟାକରି ମୋବାଇଲ୍ ନମ୍ବର ପ୍ରବେଶ କରନ୍ତୁ |</string>
+    <string name="fill_custmobile">ଦୟାକରି ଗ୍ରାହକ ମୋବାଇଲ୍ ନମ୍ବର ପ୍ରବେଶ କରନ୍ତୁ |</string>
+    <string name="enter_comment">ଦୟାକରି ମନ୍ତବ୍ୟ ପ୍ରବେଶ କରନ୍ତୁ |</string>
+    <string name="fill_password">ଦୟାକରି ପାସୱାର୍ଡ ପ୍ରବେଶ କରନ୍ତୁ |</string>
+    <string name="fill_current_password">ଦୟାକରି ପୁରୁଣା ପାସୱାର୍ଡ ପ୍ରବେଶ କରନ୍ତୁ |</string>
+    <string name="fill_newpassword">ଦୟାକରି ନୂତନ ପାସୱାର୍ଡ ପ୍ରବେଶ କରନ୍ତୁ |</string>
+    <string name="pass_6_digit_validation">ପାସୱାର୍ଡ ଅତିକମରେ 8 ଅକ୍ଷର ହେବା ଜରୁରୀ |</string>
+    <string name="current_pass_6_digit_validation">ବିଦ୍ୟମାନ ପାସୱାର୍ଡ ଅତିକମରେ 6 ଅକ୍ଷର ହେବା ଜରୁରୀ |</string>
+    <string name="new_6_digit_validation">ନୂତନ ପାସୱାର୍ଡ ଅତିକମରେ 6 ଅକ୍ଷର ହେବା ଜରୁରୀ |</string>
+    <string name="fill_cnfpassword">ଦୟାକରି ପାସୱାର୍ଡ ନିଶ୍ଚିତ କରନ୍ତୁ |</string>
+    <string name="fill_valid_email">ଦୟାକରି ବ valid ଧ ଇମେଲ ଠିକଣା ପ୍ରବେଶ କରନ୍ତୁ |</string>
+    <string name="fill_valid_mobile">ଦୟାକରି ଏକ ବ valid ଧ ମୋବାଇଲ୍ ନମ୍ବର ପ୍ରବେଶ କରନ୍ତୁ |</string>
+
+    <string name="select_video">ଭିଡିଓ ଚୟନ କରନ୍ତୁ |</string>
+    <string name="compressing_video">ସଙ୍କୋଚନ ଭିଡିଓ ...</string>
+    <string name="cannot_retrieve_video">ମନୋନୀତ ଭିଡିଓ ପୁନରୁଦ୍ଧାର କରିପାରିବ ନାହିଁ |</string>
+    <string name="trimming_your_video">ତୁମର ଭିଡିଓ କାଟିବା…</string>
+    <string name="video_saved_at">ଭିଡିଓ ସଞ୍ଚୟ କରେ: $% 1s |</string>
+    <string name="done">ସମାପ୍ତ</string>
+    <string name="male">ପୁରୁଷ</string>
+    <string name="check_connection">ଦୟାକରି ଆପଣଙ୍କର ଇଣ୍ଟରନେଟ୍ ସଂଯୋଗ ଯାଞ୍ଚ କରନ୍ତୁ |</string>
+    <string name="confirm_psw_reg">ପାସ୍ବାଡ଼ ନିସ୍ଚିତ କର</string>
+    <string name="dob">ଜନ୍ମ ତାରିଖ</string>
+    <string name="facebook">ଫେସବୁକ୍</string>
+    <string name="instagram">ଇନଷ୍ଟାଗ୍ରାମ |</string>
+    <string name="Youtube">ୟୁଟ୍ୟୁବ୍</string>
+    <string name="welcome">ସ୍ Welcome ାଗତ</string>
+    <!--    <string name="datebefore">Your birthday date must come before taday &quots date</string>-->
+    <string name="female">ମହିଳା</string>
+    <string name="str_video_share_intent">ଭିଡିଓ ଅଂଶୀଦାର କରିବାକୁ ଆପ୍ ଚୟନ କରନ୍ତୁ |</string>
+    <string name="video_files_empty">ଖାଲି ଭିଡିଓ ଫାଇଲ୍ ମିଳିଲା!</string>
+    <string name="no_video_file_found">ସିଷ୍ଟମ୍ ଭିଡିଓ ଫାଇଲ୍ ଖୋଜିବାକୁ ସକ୍ଷମ ନୁହେଁ!</string>
+    <string name="error_downloading_audio">ଅଡିଓ ଫାଇଲ୍ ଡାଉନଲୋଡ୍ କରିବାରେ ତ୍ରୁଟି! ଦୟାକରି ପରେ ଚେଷ୍ଟା କରନ୍ତୁ |</string>
+
+    <string name="fifteen_seconds">15 ସେକେଣ୍ଡ୍ |</string>
+    <string name="thirty_seconds">30 ସେକେଣ୍ଡ୍ |</string>
+    <string name="five_seconds">5 ସେକେଣ୍ଡ୍</string>
+    <string name="ten_seconds">10 ସେକେଣ୍ଡ୍</string>
+    <string name="off_timer">ଟାଇମର୍ ଅଫ୍ |</string>
+    <string name="video_downloaded">ଭିଡିଓ ଗ୍ୟାଲେରୀରେ ସେଭ୍ ହୋଇଛି |</string>
+
+    <string-array name="filters">
+        <item>Default</item>
+        <item>Bilateral Blur</item>
+        <item>Box Blur</item>
+        <item>Brightness</item>
+        <item>Bulge Distortion</item>
+        <item>CGA Color Space</item>
+        <item>Contrast</item>
+        <item>Cross Hatch</item>
+        <item>Exposure</item>
+        <item>Filter Group</item>
+        <item>Gamma</item>
+        <item>Gaussian Filter</item>
+        <item>Gray Scale</item>
+        <item>Half Tone</item>
+        <item>Haze</item>
+        <item>Highlight Shadow</item>
+        <item>HUE</item>
+        <item>Invert</item>
+        <item>Look Up Table</item>
+        <item>Luminance</item>
+        <item>Luminance Threshold</item>
+        <item>Monochrome</item>
+        <item>Opacity</item>
+        <item>Pixelation</item>
+        <item>Posterize</item>
+        <item>RGB</item>
+        <item>Saturation</item>
+        <item>Sepia</item>
+        <item>Sharp</item>
+        <item>Solarize</item>
+        <item>Sphere Refraction</item>
+        <item>Swirl</item>
+        <item>Tone</item>
+        <item>Tone Curve</item>
+        <item>Vibrance</item>
+        <item>Vignette</item>
+        <item>Weak Pixel</item>
+        <item>White Balance</item>
+        <item>Zoom Blur</item>
+    </string-array>
+
+    <!--Telugu translation-->
+    <string name="ringdroid_app_name">Ringdroid</string>
+
+    <!--
+     Main / media select activity
+     -->
+
+    <string name="main_activity_label">Ringdroid</string>
+
+    <string name="search_edit_box">Search</string>
+
+    <string name="button_start_record_activity">Record New</string>
+
+    <string name="sdcard_readonly">Sorry, the SD Card is mounted as read-only and Ringdroid requires it to be writable.</string>
+    <string name="no_sdcard">Sorry, Ringdroid can\'t run unless you have an SD Card inserted.</string>
+    <string name="sdcard_shared">Sorry, Ringdroid can\'t run while your handset is mounted as a USB device.</string>
+
+    <string name="button_options">Options</string>
+
+    <!--
+     Edit activity
+     -->
+
+    <!-- Labels next to the start and end time edit boxes -->
+    <string name="start_label">Start:</string>
+    <string name="end_label">End:</string>
+
+    <string name="edit_intent">Edit</string>
+
+    <string name="time_seconds">seconds</string>
+
+    <!-- After you save a notification or ringtone and have more options
+         for what to do with them -->
+    <string name="what_to_do_with_ringtone">Saved!  Make this your default ringtone or assign it to a contact?</string>
+    <string name="set_default_notification">Saved!  Make this your default notification?</string>
+
+    <string name="make_default_ringtone_button">Make Default</string>
+    <string name="choose_contact_ringtone_button">Assign to Contact</string>
+    <string name="do_nothing_with_ringtone_button">Close</string>
+
+    <!-- Progress dialog text for loading, recording, or saving... -->
+    <string name="progress_dialog_loading">Loading…</string>
+    <string name="progress_dialog_recording">Recording…</string>
+    <string name="progress_dialog_saving">Saving…</string>
+    <string name="progress_dialog_cancel">Cancel</string>
+    <string name="progress_dialog_stop">Stop</string>
+
+    <!-- Image button descriptions for accessibility -->
+
+    <string name="start_marker">Start marker</string>
+    <string name="end_marker">End marker</string>
+    <string name="rewind">Rewind</string>
+    <string name="play">Play</string>
+    <!--    <string name="stop">Stop</string>-->
+    <string name="ffwd">Fast forward</string>
+    <string name="zoom_in">Zoom In</string>
+    <string name="zoom_out">Zoom Out</string>
+    <string name="save_button">Save</string>
+
+    <!--
+     Menu items
+     -->
+
+    <!--    <string name="menu_save">Save</string>-->
+    <!--    <string name="menu_reset">Reset</string>-->
+    <!--    <string name="menu_about">About</string>-->
+    <!--    <string name="menu_show_all_audio">Show All Audio</string>-->
+
+    <!--
+     Context menu items
+     -->
+
+    <string name="context_menu_edit">Edit</string>
+    <string name="context_menu_delete">Delete</string>
+    <string name="context_menu_default_ringtone">Set as Default Ringtone</string>
+    <string name="context_menu_contact">Assign to Contact</string>
+    <string name="context_menu_default_notification">Set as Default Notification</string>
+
+    <!--
+     File Save dialog
+     -->
+
+    <string name="file_save_title">Save As:</string>
+    <string name="file_save_button_save">Save</string>
+    <string name="file_save_button_cancel">Cancel</string>
+
+    <string name="ringtone_type_label">Type:</string>
+
+    <string name="type_music">Music</string>
+    <string name="type_alarm">Alarm</string>
+    <string name="type_notification">Notification</string>
+    <string name="type_ringtone">Ringtone</string>
+
+    <string name="ringtone_name_label">Name:</string>
+
+    <string name="artist_name">Ringdroid</string>
+
+    <!--
+     Delete confirmation dialog
+     -->
+
+    <string name="delete_ringtone">Delete Ringtone</string>
+    <string name="delete_alarm">Delete Alarm</string>
+    <string name="delete_notification">Delete Notification</string>
+    <string name="delete_music">Delete Music</string>
+    <string name="delete_audio">Delete Audio</string>
+
+    <string name="confirm_delete_ringdroid">Are you sure?</string>
+    <string name="confirm_delete_non_ringdroid">Are you sure?  This file was not created using Ringdroid!</string>
+
+    <string name="delete_ok_button">Delete</string>
+    <string name="delete_cancel_button">Cancel</string>
+
+    <string name="delete_failed">Unable to delete file</string>
+
+    <!--
+     Success and error messages
+     -->
+
+    <string name="alert_title_success">Success</string>
+    <string name="alert_title_failure">Error</string>
+    <string name="alert_ok_button">OK</string>
+    <string name="alert_yes_button">Yes, please!</string>
+    <string name="alert_no_button">No, thanks.</string>
+
+    <string name="save_success_message">Saved!</string>
+    <string name="default_ringtone_success_message">Changed default ringtone</string>
+    <string name="default_notification_success_message">Changed default notification sound</string>
+    <string name="play_error">Unable to play this media file</string>
+    <string name="no_unique_filename">Unable to find unique filename</string>
+    <string name="record_error">Error recording audio</string>
+    <string name="too_small_error">Can\'t save a file that small, try making it longer.</string>
+    <string name="write_error">Error writing file</string>
+    <string name="read_error">Error reading file</string>
+
+    <string name="no_space_error">Your SD card is full, there is not enough space to save this file.</string>
+
+    <string name="bad_extension_error">Sorry, Ringdroid is not yet able to edit files of type</string>
+    <string name="no_extension_error">Sorry, Ringdroid can\'t edit a file if it doesn\'t have an extension like .mp3 or .wav</string>
+
+    <!--
+     Choose Contact Activity
+     -->
+
+    <string name="choose_contact_title">Assign ringtone to which contact?</string>
+    <string name="success_contact_ringtone">Successfully assigned ringtone to:</string>
+
+    <!--
+     About
+     -->
+
+    <string name="about_title">About Ringdroid</string>
+    <string name="about_text"><![CDATA[Use Ringdroid to edit MP3, OGG, WAV, AAC, and AMR audio files and create ringtones, alarms, and notifications from them.\n\nTip: copy audio files to your SD card using a USB cable.\n\nTip: tap anywhere on the waveform to start playing at that position.\n\nTip: while playing, tap the word Start or End to quickly set the start and end markers to the current playback time.\n\nVersion %s\n\nDeveloper: Dominic Mazzoni, Nicolas Faralli\nGraphics: Joseph Wain\nSupport and evangelizing: Eugene Koh\nEnhancements: Dan Klufas\n\nRingdroid is free software, distributed under the Apache 2.0 license.  Source code is on github.com/google/ringdroid\n]]></string>
+
+</resources>

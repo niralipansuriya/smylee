@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/ll_report_spam"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_400sdp"
+        android:elevation="@dimen/_3sdp"
+        android:fitsSystemWindows="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:behavior_hideable="true"
+        app:behavior_peekHeight="0dp"
+        app:layout_behavior="@string/bottom_sheet_behavior"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_400sdp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="-18dp"
+            android:visibility="visible"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="18dp"
+            app:cardElevation="5dp"
+            app:contentPadding="5dp"
+            app:elevation="36dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:fontFamily="@font/avenirltstd_heavy"
+                    android:gravity="center"
+                    android:text="@string/report_issue"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_18sdp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="@color/border" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/rgReport"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/radiobuttonstyle"
+                        android:layout_gravity="end">
+
+                        <androidx.appcompat.widget.AppCompatRadioButton
+                            android:id="@+id/rb_1"
+                            style="@style/radiobuttonstyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:background="@color/white"
+                            android:drawablePadding="30dp"
+                            android:layoutDirection="rtl"
+                            android:padding="@dimen/_15sdp"
+                            android:text="@string/spam_1"
+                            android:textAlignment="textStart"
+                            android:textSize="@dimen/_12sdp" />
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="@color/border" />
+
+                        <androidx.appcompat.widget.AppCompatRadioButton
+                            android:id="@+id/rb_2"
+                            style="@style/radiobuttonstyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:background="@color/white"
+                            android:drawablePadding="30dp"
+                            android:layoutDirection="rtl"
+                            android:padding="@dimen/_15sdp"
+                            android:text="@string/spam_2"
+                            android:textAlignment="textStart"
+                            android:textSize="@dimen/_12sdp" />
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="@color/border" />
+
+                        <androidx.appcompat.widget.AppCompatRadioButton
+                            android:id="@+id/rb_3"
+                            style="@style/radiobuttonstyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:background="@color/white"
+                            android:drawablePadding="30dp"
+                            android:layoutDirection="rtl"
+                            android:padding="@dimen/_15sdp"
+                            android:text="@string/spam_3"
+                            android:textAlignment="textStart"
+                            android:textSize="@dimen/_12sdp" />
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="@color/border" />
+
+                        <androidx.appcompat.widget.AppCompatRadioButton
+                            android:id="@+id/rb_4"
+                            style="@style/radiobuttonstyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:background="@color/white"
+                            android:drawablePadding="30dp"
+                            android:layoutDirection="rtl"
+                            android:padding="@dimen/_15sdp"
+                            android:text="@string/spam_4"
+                            android:textAlignment="textStart"
+                            android:textSize="@dimen/_12sdp" />
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="@color/border" />
+
+                        <androidx.appcompat.widget.AppCompatRadioButton
+                            android:id="@+id/rb_5"
+                            style="@style/radiobuttonstyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:background="@color/white"
+                            android:drawablePadding="30dp"
+                            android:layoutDirection="rtl"
+                            android:padding="@dimen/_15sdp"
+                            android:text="@string/spam_5"
+                            android:textAlignment="textStart"
+                            android:textSize="@dimen/_12sdp" />
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="@color/border" />
+
+                        <androidx.appcompat.widget.AppCompatRadioButton
+                            android:id="@+id/rb_6"
+                            style="@style/radiobuttonstyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:background="@color/white"
+                            android:drawablePadding="30dp"
+                            android:layoutDirection="rtl"
+                            android:padding="@dimen/_15sdp"
+                            android:text="@string/spam_6"
+                            android:textAlignment="textStart"
+                            android:textSize="@dimen/_12sdp" />
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="@color/border" />
+
+                    </RadioGroup>
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btnReport"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:background="@drawable/button_border"
+                        android:fontFamily="@font/avenirltstd_black"
+                        android:paddingLeft="25dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="25dp"
+                        android:paddingBottom="5dp"
+                        android:text="@string/report"
+                        android:textColor="@color/white" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

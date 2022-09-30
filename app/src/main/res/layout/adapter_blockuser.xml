@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/llMainFollowUnfollow"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="1dp"
+        android:padding="@dimen/_10sdp"
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_margin="@dimen/_1sdp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".6">
+
+                <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/iv_pic"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/profile_thumb"
+                    android:src="@drawable/profile_thumb"
+                    app:riv_oval="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1.5">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/tv_name"
+                    android:textSize="@dimen/_12sdp"
+                    android:fontFamily="@font/avenirltstd_heavy"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:text=""
+                    tools:text="Nirali patel patel"
+                    android:gravity="center|left"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_height="match_parent" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_13sdp"
+                    android:src="@drawable/verified"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:visibility="gone"
+                    android:id="@+id/ivVerified"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_height="@dimen/_13sdp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight=".9"
+                android:gravity="center"
+                android:layout_gravity="end|center"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/btn_unblock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|end"
+                    android:background="@drawable/un_follow_border_new_theme"
+                    android:fontFamily="@font/avenirltstd_heavy"
+                    android:gravity="center"
+                    android:textAllCaps="true"
+                    android:paddingLeft="@dimen/_21sdp"
+                    android:paddingTop="@dimen/_11sdp"
+                    android:paddingRight="@dimen/_21sdp"
+                    android:paddingBottom="@dimen/_11sdp"
+                    android:text="@string/unblock"
+                    android:textColor="@color/purple"
+                    android:textSize="@dimen/_8sdp"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

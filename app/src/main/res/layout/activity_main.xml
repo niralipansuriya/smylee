@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.Activity.ChangeMobile">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:layout_marginTop="@dimen/_110sdp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"
+                    android:visibility="gone"
+                    android:src="@drawable/login_logo_final"
+                    android:layout_gravity="center"
+                    android:gravity="center" />
+
+                <!--
+                                <smylee.app.custom.LoginGif
+                                    android:layout_width="@dimen/_100sdp"
+                                    android:maxHeight="@dimen/_100sdp"
+                                    android:maxWidth="@dimen/_100sdp"
+                                    android:layout_height="@dimen/_100sdp"
+                                    android:layout_gravity="center" />
+                -->
+
+                <FrameLayout
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"
+                    android:layout_gravity="center"
+                    android:background="@color/black">
+
+                    <com.google.android.exoplayer2.ui.PlayerView
+                        android:id="@+id/playerView"
+                        android:layout_width="@dimen/_100sdp"
+                        android:layout_height="@dimen/_100sdp"
+                        app:surface_type="texture_view"
+                        android:background="@color/white"
+                        android:keepScreenOn="true"
+                        app:use_controller="false"
+                        app:resize_mode="fixed_width" />
+
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/ivVideoImage"
+                        android:layout_width="@dimen/_100sdp"
+                        android:layout_height="@dimen/_100sdp"
+                        android:visibility="visible"
+                        android:src="@drawable/splash_source"
+                        android:layout_gravity="center"
+                        android:background="@color/white"
+                        android:scaleType="centerCrop" />
+
+
+                    <!--<smylee.app.custom.GifView
+                        android:id="@+id/gifViewLoader"
+                        android:layout_width="@dimen/_150sdp"
+                        android:layout_height="@dimen/_150sdp"
+                        android:layout_gravity="center" />-->
+
+                    <View
+                        android:id="@+id/viewHandleClick"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:visibility="invisible"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:fontFamily="@font/avenirltstd_book"
+                    android:text="@string/login_to_account"
+                    android:textColor="@color/login_txt"
+                    android:textSize="@dimen/_14sdp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight=".5"
+                        android:padding="@dimen/_6sdp"
+                        android:layout_height="match_parent">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            app:cardCornerRadius="@dimen/_18sdp"
+                            app:cardElevation="@dimen/_1sdp"
+                            app:cardUseCompatPadding="true"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardPreventCornerOverlap="false"
+                            app:contentPadding="@dimen/_1sdp"
+                            android:descendantFocusability="beforeDescendants"
+                            android:layout_height="wrap_content">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="match_parent"
+                                android:textSize="16dp"
+                                android:gravity="center"
+                                android:padding="10dp"
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:text="@string/countrycode"
+                                android:layout_height="match_parent"></androidx.appcompat.widget.AppCompatTextView>
+
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1.5"
+                        android:padding="@dimen/_6sdp"
+                        android:layout_height="match_parent">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            app:cardCornerRadius="@dimen/_18sdp"
+                            app:cardUseCompatPadding="true"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardPreventCornerOverlap="false"
+                            app:contentPadding="@dimen/_3sdp"
+                            android:descendantFocusability="beforeDescendants"
+                            android:layout_height="wrap_content">
+
+                            <androidx.appcompat.widget.AppCompatEditText
+                                android:id="@+id/edtPhone"
+                                android:lines="1"
+                                android:fontFamily="@font/avenirltstd_book"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="number"
+                                android:layout_gravity="center"
+                                android:focusable="true"
+                                android:imeOptions="actionDone"
+                                android:focusableInTouchMode="true"
+                                android:background="@color/white"
+                                android:gravity="center|left"
+                                android:maxLength="10"
+                                android:hint="@string/phone_number"
+                                android:textColor="@color/black"
+                                android:singleLine="true"
+                                android:padding="10dp"
+                                android:paddingStart="20dp"
+                                android:textColorHint="@color/search_hint"
+                                android:textSize="16dp"></androidx.appcompat.widget.AppCompatEditText>
+
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    app:cardCornerRadius="@dimen/_18sdp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardUseCompatPadding="true"
+                    app:cardElevation="@dimen/_3sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    app:cardPreventCornerOverlap="false"
+                    android:visibility="gone"
+                    app:contentPadding="@dimen/_3sdp"
+                    android:descendantFocusability="beforeDescendants"
+                    android:layout_height="wrap_content">
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/edt_psw"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lines="1"
+                        android:fontFamily="@font/avenirltstd_book"
+                        android:textColor="@color/black"
+                        android:inputType="textPassword"
+                        android:focusable="true"
+                        android:imeOptions="actionDone"
+                        android:focusableInTouchMode="true"
+                        android:singleLine="true"
+                        android:layout_gravity="center"
+                        android:background="@color/white"
+                        android:gravity="center|left"
+                        android:hint="@string/psw"
+                        android:padding="10dp"
+                        android:paddingStart="20dp"
+                        android:textColorHint="@color/search_hint"
+                        android:textSize="16dp"></androidx.appcompat.widget.AppCompatEditText>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <TextView
+                    android:id="@+id/tv_forgot_psw"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:fontFamily="@font/avenirltstd_book"
+                    android:layout_marginTop="10dp"
+                    android:gravity="end"
+                    android:visibility="gone"
+                    android:text="@string/forgot_password"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"></TextView>
+
+                <Button
+                    android:id="@+id/btnChange"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/avenirltstd_black"
+                    android:background="@drawable/button_border"
+                    android:text="@string/verify_txt"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:textStyle="bold"></Button>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textSize="@dimen/_14sdp"
+                    android:text="@string/skip"
+                    android:visibility="gone"
+                    android:id="@+id/tv_skip_login"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/purple"
+                    android:layout_height="wrap_content"></TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom"
+
+                    android:layout_marginTop="@dimen/_40sdp"
+                    android:layout_gravity="bottom"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.2"
+                        android:visibility="gone"
+                        android:gravity="center|right">
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="@color/login_border" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".6"
+                        android:visibility="gone"
+                        android:layout_gravity="bottom"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:gravity="bottom|center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="16dp"
+                            android:fontFamily="@font/avenirltstd_book"
+                            android:text="@string/loginwith"
+                            android:textColor="@color/login_with" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:visibility="gone"
+                        android:layout_weight="1.2"
+                        android:gravity="center">
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="@color/login_border" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right"
+                        android:layout_weight="1.2"
+                        android:gravity="right">
+
+                        <ImageView
+                            android:id="@+id/iv_fb"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/facebook" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".6"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/iv_google"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/gmail" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.2">
+
+                        <ImageView
+                            android:id="@+id/iv_insta"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/instagram" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:gravity="bottom"
+                    android:visibility="gone"
+                    android:layout_gravity="bottom"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/avenirltstd_book"
+                        android:gravity="right"
+                        android:text="Don't have an account?"
+                        android:textColor="@color/darkblack"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/tv_register"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:fontFamily="@font/avenirltstd_heavy"
+                        android:paddingLeft="2dp"
+                        android:text="@string/register"
+                        android:textColor="@color/purple"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

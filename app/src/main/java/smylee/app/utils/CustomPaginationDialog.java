@@ -1,0 +1,50 @@
+package smylee.app.utils;
+
+import android.app.Dialog;
+import android.content.Context;
+import android.graphics.drawable.ColorDrawable;
+import android.view.Gravity;
+import android.view.Window;
+import android.view.WindowManager;
+
+import java.util.Objects;
+
+import smylee.app.R;
+
+public class CustomPaginationDialog {
+    private Dialog dialog;
+
+    public CustomPaginationDialog(Context context) {
+        dialog = new Dialog(context);
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        Objects.requireNonNull(dialog.getWindow()).clearFlags(WindowManager.LayoutParams.FLAG_DIM_BEHIND);
+        dialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
+    }
+
+    /**
+     * This method use for show progress dialog
+     *
+     * @param isCancelable set true if you set cancel progressDialog by user event
+     */
+    public void show(Boolean isCancelable) {
+        dialog.setCancelable(isCancelable);
+        dialog.setContentView(R.layout.progress_layout);
+        try {
+            Objects.requireNonNull(dialog.getWindow()).setGravity(Gravity.BOTTOM);
+            dialog.show();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public Boolean isShowing() {
+        return dialog.isShowing();
+    }
+
+    public void hide() {
+        if (dialog != null) {
+            dialog.cancel();
+            dialog.dismiss();
+        }
+    }
+}

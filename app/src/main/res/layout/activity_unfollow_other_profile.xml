@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Profile.UnfollowActivityOtherProfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize">
+
+                <LinearLayout
+                    android:id="@+id/toolbar_layout"
+                    android:layout_width="match_parent"
+                    android:gravity="center_horizontal"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/avatar_unfollow_other_profile"
+                        android:layout_width="20dp"
+                        android:src="@drawable/back"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/name"
+                        android:layout_width="match_parent"
+                        android:text="@string/followings"
+                        android:paddingRight="25dp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/avenirltstd_heavy"
+                        android:gravity="center|center_horizontal"
+                        android:background="@color/white"
+                        android:textColor="@color/black"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/_18sdp" />
+                </LinearLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/search_unfollow_other_profile"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:focusable="false"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="@font/avenirltstd_book"
+            app:queryBackground="@color/space_transparent"
+            app:closeIcon="@drawable/search_new"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            app:theme="@style/AppSearchView"
+            app:searchIcon="@drawable/close_new"
+            android:background="@drawable/common_border"
+            app:iconifiedByDefault="false"
+            app:queryHint="@string/search" />
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/rv_unFollow_other_user_profile"
+            android:visibility="visible"
+            android:layout_marginTop="15dp"
+            android:layout_height="match_parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_nodata_unfollow_other_user"
+            android:layout_width="match_parent"
+            android:textSize="@dimen/_12sdp"
+            android:gravity="center"
+            android:fontFamily="@font/avenirltstd_book"
+            android:text="@string/other_following_msg"
+            android:visibility="gone"
+            android:textColor="@color/black"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

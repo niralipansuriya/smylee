@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".signup.RegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_marginTop="50dp"
+        android:fillViewport="true">
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="match_parent"-->
+        <!--            android:orientation="vertical">-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/welcome"
+                android:fontFamily="@font/avenirltstd_black"
+                android:textColor="@color/purple"
+                android:textSize="@dimen/_38sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/avenirltstd_book"
+                android:text="@string/create_account"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    app:cardCornerRadius="@dimen/_18sdp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardUseCompatPadding="true"
+                    app:cardElevation="@dimen/_2sdp"
+                    app:cardPreventCornerOverlap="false"
+                    app:contentPadding="@dimen/_3sdp"
+                    android:descendantFocusability="beforeDescendants"
+                    android:layout_height="wrap_content">
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/edt_firstname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/avenirltstd_book"
+                        android:background="@color/white"
+                        android:focusable="true"
+                        android:maxLength="20"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center|left"
+                        android:hint="@string/first_name"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPersonName"
+                        android:padding="10dp"
+                        android:paddingStart="25dp"
+                        android:paddingLeft="15dp"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/search_hint"
+                        android:textSize="16dp"></androidx.appcompat.widget.AppCompatEditText>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    app:cardCornerRadius="@dimen/_18sdp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardUseCompatPadding="true"
+                    app:contentPadding="@dimen/_3sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    app:cardPreventCornerOverlap="false"
+                    app:cardElevation="@dimen/_2sdp"
+                    android:descendantFocusability="beforeDescendants"
+                    android:layout_height="wrap_content">
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/edt_last_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/avenirltstd_book"
+                        android:focusable="true"
+                        android:maxLength="20"
+                        android:focusableInTouchMode="true"
+                        android:imeOptions="actionDone"
+                        android:background="@color/white"
+                        android:gravity="center|left"
+                        android:hint="@string/last_name"
+                        android:inputType="text"
+                        android:padding="10dp"
+                        android:paddingStart="25dp"
+                        android:paddingLeft="15dp"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/search_hint"
+                        android:textSize="16dp"></androidx.appcompat.widget.AppCompatEditText>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <RadioGroup
+                    android:id="@+id/radioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center|left"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb_male"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@color/white"
+                        android:buttonTint="@color/purple"
+                        android:text="@string/male"
+                        style="@style/MyRadioButtonStyle"
+                        android:fontFamily="@font/avenirltstd_medium"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb_female"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="35dp"
+                        style="@style/MyRadioButtonStyle"
+                        android:backgroundTint="@color/purple"
+                        android:buttonTint="@color/white"
+                        android:text="@string/female"
+                        android:fontFamily="@font/avenirltstd_medium"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                </RadioGroup>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    app:cardCornerRadius="@dimen/_18sdp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardUseCompatPadding="true"
+                    app:contentPadding="@dimen/_3sdp"
+                    app:cardElevation="@dimen/_2sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    app:cardPreventCornerOverlap="false"
+                    android:descendantFocusability="beforeDescendants"
+                    android:layout_height="wrap_content">
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/edt_dob"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:editable="false"
+                        android:fontFamily="@font/avenirltstd_book"
+                        android:imeOptions="actionNext"
+                        android:focusable="true"
+                        android:gravity="center|left"
+                        android:focusableInTouchMode="true"
+                        android:hint="@string/dob"
+                        android:padding="10dp"
+                        android:paddingStart="25dp"
+                        android:paddingLeft="15dp"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/search_hint"
+                        android:textSize="16dp"></androidx.appcompat.widget.AppCompatEditText>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    app:cardCornerRadius="@dimen/_18sdp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardUseCompatPadding="true"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    app:cardElevation="@dimen/_2sdp"
+                    app:cardPreventCornerOverlap="false"
+                    app:contentPadding="@dimen/_3sdp"
+                    android:descendantFocusability="beforeDescendants"
+                    android:layout_height="wrap_content">
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/edt_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/avenirltstd_book"
+                        android:background="@color/white"
+                        android:gravity="center|left"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:imeOptions="actionNext"
+                        android:hint="@string/email"
+                        android:inputType="textEmailAddress"
+                        android:padding="10dp"
+                        android:paddingStart="25dp"
+                        android:paddingLeft="15dp"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/search_hint"
+                        android:textSize="16dp"></androidx.appcompat.widget.AppCompatEditText>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    app:cardCornerRadius="@dimen/_18sdp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardUseCompatPadding="true"
+                    app:cardElevation="@dimen/_2sdp"
+                    app:contentPadding="@dimen/_3sdp"
+                    app:cardPreventCornerOverlap="false"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:descendantFocusability="beforeDescendants"
+                    android:layout_height="wrap_content">
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/edt_psw"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@color/white"
+                        android:gravity="center|left"
+                        android:hint="@string/psw"
+                        android:fontFamily="@font/avenirltstd_book"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPassword"
+                        android:padding="10dp"
+                        android:paddingStart="25dp"
+                        android:paddingLeft="15dp"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/search_hint"
+                        android:textSize="16dp"></androidx.appcompat.widget.AppCompatEditText>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    app:cardCornerRadius="@dimen/_18sdp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardUseCompatPadding="true"
+                    app:contentPadding="@dimen/_3sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    app:cardElevation="@dimen/_2sdp"
+                    app:cardPreventCornerOverlap="false"
+                    android:descendantFocusability="beforeDescendants"
+                    android:layout_height="wrap_content">
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/edt_confirm_psw"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@color/white"
+                        android:gravity="center|left"
+                        android:hint="@string/confirm_psw_reg"
+                        android:focusable="true"
+                        android:fontFamily="@font/avenirltstd_book"
+                        android:focusableInTouchMode="true"
+                        android:imeOptions="actionDone"
+                        android:inputType="textPassword"
+                        android:padding="10dp"
+                        android:paddingStart="25dp"
+                        android:paddingLeft="15dp"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/search_hint"
+                        android:textSize="16dp"></androidx.appcompat.widget.AppCompatEditText>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <Button
+                    android:id="@+id/btn_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/button_border"
+                    android:text="@string/register"
+                    android:fontFamily="@font/avenirltstd_black"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:textStyle="bold"></Button>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:fontFamily="@font/avenirltstd_book"
+                        android:text="@string/account"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/tv_login"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:paddingLeft="2dp"
+                        android:fontFamily="@font/avenirltstd_heavy"
+                        android:text="@string/Login"
+                        android:textColor="@color/purple"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <!--        </LinearLayout>-->
+    </ScrollView>
+</LinearLayout>

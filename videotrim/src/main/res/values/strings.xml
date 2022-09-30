@@ -1,0 +1,19 @@
+<resources>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="done">Done</string>
+    <string name="short_seconds">""</string>
+    <string name="short_hours">""</string>
+    <string name="short_min">""</string>
+    <string name="total">Total</string>
+
+    <!-- <string name="short_seconds">sec</string>
+     <string name="short_hours">hour</string>
+     <string name="short_min">min</string>-->
+
+    <string name="megabyte">MB</string>
+    <string name="kilobyte">KB</string>
+
+    <string name="play">Play</string>
+    <string name="close">Close</string>
+</resources>

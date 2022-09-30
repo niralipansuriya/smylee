@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".exploreSearch.SearchViewmoreVideos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/toolbar_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_back"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="left|center"
+                        android:src="@drawable/back" />
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:paddingRight="25dp"
+                        android:fontFamily="@font/avenirltstd_heavy"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_18sdp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/search_follow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            app:theme="@style/AppSearchView"
+            android:visibility="gone"
+            android:fontFamily="@font/avenirltstd_book"
+            app:closeIcon="@drawable/ic_close_black_24dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            app:searchIcon="@drawable/search_icon"
+            android:background="@drawable/search_border"
+            app:iconifiedByDefault="false"
+            app:queryHint="@string/search" />
+
+        <!--
+                <EditText
+                    android:id="@+id/edt_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:visibility="visible"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/avenirltstd_book"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/search_border"
+                    android:drawableLeft="@drawable/search_icon"
+                    android:drawablePadding="10dp"
+                    android:gravity="center|left"
+                    android:hint="Search"
+                    android:padding="10dp"
+                    android:paddingStart="25dp"
+                    android:paddingLeft="15dp"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/inactivetab"
+                    android:textSize="15dp"></EditText>
+        -->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_viewmore_videos"
+            android:layout_width="match_parent"
+            app:spanCount="3"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:visibility="visible" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_nodata_videos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/avenirltstd_book"
+            android:gravity="center"
+            android:text="@string/no_data_found"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".discovercategory.DiscoverFragment">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_nodata"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/_12sdp"
+        android:gravity="center"
+        android:fontFamily="@font/avenirltstd_book"
+        android:text="@string/no_data_found"
+        android:visibility="gone"
+        android:textColor="@color/black"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:nestedScrollingEnabled="false"
+        android:id="@+id/rec_main_category"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nsMainCategory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:id="@+id/llMainCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>

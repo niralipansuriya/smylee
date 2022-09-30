@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_450sdp"
+    android:background="@color/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/llMainComment">
+
+    <!--    <androidx.cardview.widget.CardView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="@dimen/_450sdp"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        android:visibility="visible"-->
+    <!--        card_view:cardBackgroundColor="@color/background"-->
+    <!--        card_view:cardCornerRadius="@dimen/_18sdp"-->
+    <!--        card_view:cardElevation="5dp"-->
+    <!--        card_view:contentPadding="5dp"-->
+    <!--        card_view:elevation="36dp">-->
+    <!--        &lt;!&ndash; <LinearLayout-->
+    <!--             android:layout_width="match_parent"-->
+    <!--             android:orientation="vertical"-->
+    <!--             android:minHeight="400dp"-->
+    <!--             android:layout_height="match_parent">&ndash;&gt;-->
+
+    <!--        <RelativeLayout-->
+    <!--            android:id="@+id/rl_my_choice_new"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:background="@color/background"-->
+    <!--            android:layout_marginTop="10dp"-->
+    <!--            android:layout_marginBottom="10dp"-->
+    <!--            android:gravity="center"-->
+    <!--            android:orientation="vertical"-->
+    <!--            android:visibility="visible">-->
+
+    <!--            <RelativeLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="match_parent"-->
+    <!--                android:orientation="vertical">-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:id="@+id/ll_com"-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:orientation="horizontal">-->
+
+    <!--                    <LinearLayout-->
+    <!--                        android:layout_width="0dp"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:layout_gravity="center"-->
+    <!--                        android:layout_weight="1.6"-->
+    <!--                        android:gravity="center">-->
+
+    <!--                        <androidx.appcompat.widget.AppCompatTextView-->
+    <!--                            android:id="@+id/comments"-->
+    <!--                            android:layout_width="wrap_content"-->
+    <!--                            android:layout_height="match_parent"-->
+    <!--                            android:layout_gravity="center"-->
+    <!--                            android:layout_marginLeft="10dp"-->
+    <!--                            android:background="@drawable/edittext_border"-->
+    <!--                            android:fontFamily="@font/avenirltstd_black"-->
+    <!--                            android:gravity="center"-->
+    <!--                            android:padding="@dimen/_10sdp"-->
+    <!--                            android:singleLine="true"-->
+    <!--                            android:text=""-->
+    <!--                            android:textColor="@color/space_white"-->
+    <!--                            android:textColorHint="@color/space_white"-->
+    <!--                            android:textSize="@dimen/_10sdp"/>-->
+
+    <!--                    </LinearLayout>-->
+
+
+    <!--                    <LinearLayout-->
+    <!--                        android:layout_width="0dp"-->
+    <!--                        android:layout_height="36dp"-->
+    <!--                        android:layout_gravity="center"-->
+    <!--                        android:layout_weight=".4"-->
+    <!--                        android:gravity="center">-->
+
+    <!--                        <androidx.appcompat.widget.AppCompatImageView-->
+    <!--                            android:id="@+id/iv_close"-->
+    <!--                            android:layout_width="@dimen/_10sdp"-->
+    <!--                            android:layout_height="@dimen/_15sdp"-->
+    <!--                            android:layout_gravity="center|clip_horizontal"-->
+    <!--                            android:src="@drawable/down_arrow" />-->
+
+    <!--                    </LinearLayout>-->
+
+    <!--                </LinearLayout>-->
+
+    <!--                <androidx.recyclerview.widget.RecyclerView-->
+    <!--                    android:id="@+id/rv_comments"-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_below="@+id/ll_com"-->
+    <!--                    android:layout_above="@+id/ll_send"-->
+    <!--                    android:layout_margin="10dp"-->
+    <!--                    android:visibility="visible"-->
+    <!--                    android:background="@color/background"-->
+    <!--                    android:divider="@null"-->
+    <!--                    card_view:reverseLayout="true"/>-->
+    <!--                &lt;!&ndash;android:nestedScrollingEnabled="true"&ndash;&gt;-->
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/tv_nodata"-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:gravity="center"-->
+    <!--                    android:layout_gravity="center"-->
+    <!--                    android:text="No Comments Found"-->
+    <!--                    android:textSize="@dimen/_10sdp"-->
+    <!--                    android:textColor="@color/white"-->
+    <!--                    android:layout_below="@+id/ll_com"-->
+    <!--                    android:visibility="gone"-->
+    <!--                    android:layout_margin="10dp"-->
+    <!--                    android:layout_centerInParent="true"-->
+    <!--                    android:background="@color/background" />-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:id="@+id/ll_send"-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_gravity="bottom"-->
+    <!--                    android:layout_marginTop="10dp"-->
+    <!--                    android:background="@color/background"-->
+    <!--                    android:layout_marginBottom="5dp"-->
+    <!--                    android:gravity="bottom"-->
+    <!--                    android:orientation="horizontal"-->
+    <!--                    android:visibility="visible"-->
+    <!--                    android:layout_alignParentBottom="true"-->
+    <!--                    android:weightSum="2">-->
+
+    <!--                    <LinearLayout-->
+    <!--                        android:layout_width="0dp"-->
+    <!--                        android:layout_height="match_parent"-->
+    <!--                        android:layout_weight="1.6">-->
+
+    <!--                        <androidx.appcompat.widget.AppCompatEditText-->
+    <!--                            android:id="@+id/edt_comment"-->
+    <!--                            android:layout_width="match_parent"-->
+    <!--                            android:layout_height="@dimen/_35sdp"-->
+    <!--                            android:layout_gravity="center"-->
+    <!--                            android:layout_marginLeft="10dp"-->
+    <!--                            android:background="@drawable/edittext_border"-->
+    <!--                            android:focusable="true"-->
+    <!--                            android:focusableInTouchMode="true"-->
+    <!--                            android:fontFamily="@font/avenirltstd_book"-->
+    <!--                            android:gravity="center|left"-->
+    <!--                            android:hint="Write a comment..."-->
+    <!--                            android:padding="@dimen/_3sdp"-->
+    <!--                            android:paddingStart="14dp"-->
+    <!--                            android:paddingLeft="15dp"-->
+    <!--                            android:singleLine="true"-->
+    <!--                            android:textColor="@color/white"-->
+    <!--                            android:textColorHint="@color/space_white"-->
+    <!--                            android:textSize="@dimen/_10sdp"/>-->
+
+    <!--                    </LinearLayout>-->
+
+    <!--                    <LinearLayout-->
+    <!--                        android:layout_width="0dp"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:layout_gravity="center"-->
+    <!--                        android:layout_weight=".4"-->
+    <!--                        android:gravity="center">-->
+
+    <!--                        <androidx.appcompat.widget.AppCompatImageView-->
+    <!--                            android:id="@+id/iv_send"-->
+    <!--                            android:layout_width="@dimen/_25sdp"-->
+    <!--                            android:layout_height="@dimen/_25sdp"-->
+    <!--                            android:layout_gravity="center"-->
+    <!--                            android:src="@drawable/send_big"/>-->
+
+    <!--                    </LinearLayout>-->
+
+    <!--                </LinearLayout>-->
+
+    <!--            </RelativeLayout>-->
+
+    <!--        </RelativeLayout>-->
+
+    <!--    </androidx.cardview.widget.CardView>-->
+
+</LinearLayout>

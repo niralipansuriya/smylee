@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_50sdp"
+        app:layoutManager="LinearLayoutManager"
+        tools:listitem="@layout/adapter_for_you" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvnorecord"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="@font/avenirltstd_book"
+        android:textColor="@color/black"
+        android:text="@string/no_data_found"
+        android:textSize="@dimen/_14sdp"
+        android:visibility="visible" />
+</LinearLayout>

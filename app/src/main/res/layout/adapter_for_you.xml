@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:visibility="visible"
+    android:background="@color/white"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:id="@+id/ll_parent"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight=".15">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/ivPlayAudio"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/play_audio" />
+
+            <ProgressBar
+                android:id="@+id/progressAudio"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.05"
+            android:weightSum="2"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_12sdp"
+                android:id="@+id/tv_title"
+                android:text=""
+                android:fontFamily="@font/avenirltstd_heavy"
+                android:textColor="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_desc"
+                android:visibility="gone"
+                android:text=""
+                android:textSize="@dimen/_10sdp"
+                android:fontFamily="@font/avenirltstd_roman"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llUseAudio"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".8"
+            android:orientation="vertical"
+            android:gravity="end|center_vertical">
+
+            <!--<androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivUseAudio"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/check"/>-->
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvUserAudio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/light_purple_border_background"
+                android:fontFamily="@font/avenirltstd_heavy"
+                android:gravity="center"
+                android:paddingLeft="@dimen/_12sdp"
+                android:paddingTop="@dimen/_6sdp"
+                android:paddingRight="@dimen/_12sdp"
+                android:paddingBottom="@dimen/_6sdp"
+                android:text="@string/add"
+                android:textColor="@color/purple"
+                android:textSize="@dimen/_10sdp"
+                android:visibility="visible"
+                android:layout_marginEnd="@dimen/_10sdp" />
+
+            <!--<androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Use Audio"
+                android:textSize="@dimen/_10sdp"
+                android:fontFamily="@font/avenirltstd_roman"
+                android:textColor="@color/white"
+                android:layout_marginTop="@dimen/_3sdp"/>-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:background="@color/notification_comment_color" />
+
+</LinearLayout>

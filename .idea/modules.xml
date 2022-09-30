@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/smylee.iml" filepath="$PROJECT_DIR$/.idea/modules/smylee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/smylee.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/smylee.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/smylee.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/smylee.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/smylee.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/smylee.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/smylee.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/smylee.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gpuv/smylee.gpuv.iml" filepath="$PROJECT_DIR$/.idea/modules/gpuv/smylee.gpuv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gpuv/smylee.gpuv.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/gpuv/smylee.gpuv.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gpuv/smylee.gpuv.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gpuv/smylee.gpuv.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gpuv/smylee.gpuv.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/gpuv/smylee.gpuv.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/videotrim/smylee.videotrim.iml" filepath="$PROJECT_DIR$/.idea/modules/videotrim/smylee.videotrim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/videotrim/smylee.videotrim.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/videotrim/smylee.videotrim.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/videotrim/smylee.videotrim.main.iml" filepath="$PROJECT_DIR$/.idea/modules/videotrim/smylee.videotrim.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/videotrim/smylee.videotrim.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/videotrim/smylee.videotrim.unitTest.iml" />
+    </modules>
+  </component>
+</project>

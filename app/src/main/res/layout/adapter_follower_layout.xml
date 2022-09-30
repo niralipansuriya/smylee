@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/llMainFollowUnfollow"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/_1sdp"
+        android:padding="@dimen/_9sdp"
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight=".5">
+
+                <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/iv_pic"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/profile_thumb"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    android:src="@drawable/profile_thumb"
+                    app:riv_oval="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1.6">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/tv_name"
+                    android:layout_marginStart="@dimen/_3sdp"
+                    android:textSize="@dimen/_12sdp"
+                    android:fontFamily="@font/avenirltstd_heavy"
+                    android:gravity="center|left"
+                    android:layout_gravity="center"
+                    android:text=""
+                    tools:text="Nirali patel 0908 123"
+                    android:textColor="@color/black"
+                    android:layout_height="match_parent" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_13sdp"
+                    android:src="@drawable/verified"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:visibility="gone"
+                    android:id="@+id/ivVerified"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_height="@dimen/_13sdp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight=".9"
+                android:gravity="center|end"
+                android:layout_gravity="center"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="@dimen/_80sdp"
+                    android:text="@string/follow"
+                    android:visibility="visible"
+                    android:paddingBottom="@dimen/_2sdp"
+                    android:fontFamily="@font/avenirltstd_heavy"
+                    android:layout_gravity="center|right"
+                    android:paddingTop="@dimen/_2sdp"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/_16sdp"
+                    android:paddingRight="@dimen/_16sdp"
+                    android:id="@+id/btn_follow"
+                    android:background="@drawable/button_border"
+                    android:textSize="@dimen/_10sdp"
+                    android:textColor="@color/white"
+                    android:layout_height="@dimen/_28sdp" />
+
+                <TextView
+                    android:layout_width="@dimen/_80sdp"
+                    android:text="@string/following"
+                    android:paddingBottom="@dimen/_2sdp"
+                    android:paddingTop="@dimen/_2sdp"
+                    android:id="@+id/btn_unfollow"
+                    android:visibility="gone"
+                    android:paddingLeft="@dimen/_16sdp"
+                    android:layout_gravity="center|right"
+                    android:gravity="center"
+                    android:paddingRight="@dimen/_16sdp"
+                    android:fontFamily="@font/avenirltstd_heavy"
+                    android:background="@drawable/un_follow_border_new_theme"
+                    android:textSize="@dimen/_10sdp"
+                    android:textColor="@color/purple"
+                    android:layout_height="@dimen/_28sdp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

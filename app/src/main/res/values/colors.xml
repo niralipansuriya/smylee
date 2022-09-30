@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2A2929</color>
+    <color name="colorPrimaryDark">#2A2929</color>
+    <!--    <color name="colorAccent">#6E36AC</color>-->
+    <color name="colorAccent">#4E586E</color>
+    <color name="color_camera">#FF2600</color>
+    <color name="camera_stop">#F77E61</color>
+    <color name="camera_stork">#797069</color>
+    <color name="purple">#6E36AC</color>
+    <color name="transparent_green_color">#2065956C</color>
+    <color name="pin_normal">#6B767E</color>
+    <color name="txt_color_purple">#BF9DF8</color>
+    <color name="notification_comment_color">#B4B4B4</color>
+    <color name="follower_bg">#373A4D</color>
+    <color name="login_with">#1B1E2B</color>
+    <color name="darkblack">#1A1C28</color>
+    <color name="viewall">#F2F2F2</color>
+    <color name="hash_tag">#32C5FF</color>
+    <color name="login_txt">#212533</color>
+    <color name="border">#EAEAEA</color>
+    <color name="comment_badge_bg">#FAFAFA</color>
+    <color name="comment_border">#EDEDED</color>
+    <color name="following_bg">#665B2A90</color>
+    <color name="seprator">#404453</color>
+    <color name="videoduration">#242A37</color>
+    <color name="light_purple">#79849B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="discover_viewall">#0000000D</color>
+    <color name="unfollow">#C29FFB</color>
+    <color name="search_hint">#6D7278</color>
+    <color name="background">#191B27</color>
+    <!--    <color name="background">#FFFFFF</color>-->
+    <color name="cat1">#6DD400</color>
+    <color name="space_transparent">#00000000</color>
+
+    <color name="cat2">#FA6400</color>
+    <color name="light_grey">#AFAFAF</color>
+    <color name="cat3">#FF0000</color>
+    <color name="cat4">#0091FF</color>
+    <color name="grey">#585A5D</color>
+    <color name="cat5">#F54B64</color>
+    <!--
+        <color name="background">#222534</color>
+    -->
+    <color name="bg">#242837</color>
+    <color name="black">#000000</color>
+    <color name="other_user_bg">#550000</color>
+    <color name="new_black">#66000000</color>
+    <color name="notification">#848484</color>
+    <color name="inactivetab">#4E586E</color>
+    <color name="post_text">#9DA5B7</color>
+    <color name="login_border">#E5E5E5</color>
+    <color name="black_transp_progress">#8D000000</color>
+    <color name="edit_color">#353948</color>
+    <color name="tab_bg">#F7F7F7</color>
+    <color name="search_bg">#8E8E931F</color>
+    <color name="main_bg">#191B27</color>
+    <color name="search_hint_text_color">#4E586E</color>
+    <color name="black_transparent">#0000004D</color>
+    <color name="red_border_color">#FF2D55</color>
+    <color name="disable_color">#C5C7C9</color>
+    <color name="header_text_color">#000000</color>
+    <color name="gray">#4D4D4D</color>
+    <color name="tab_color">#AAAAAA</color>
+    <color name="divider">#454B57</color>
+    <!--
+        <color name="duration_bg">#421f1eb8</color>
+    -->
+    <color name="duration_bg">#66000000</color>
+    <color name="selectedlang">#AF67FF</color>
+    <!--    <color name="discover_viewAll">#161822</color>-->
+    <color name="discover_viewAll">#16171f</color>
+
+    <color name="black_transparent_color_start">#00000000</color>
+    <color name="border_following">#66C29FFB</color>
+    <color name="black_transparent_color_center">#33000000</color>
+    <color name="blacktranperent">#22000000</color>
+    <color name="whitetranperent">#22FFFFFF</color>
+    <color name="blacktransperent">#50000000</color>
+    <color name="black_transparent_color_end">#55000000</color>
+
+    <color name="colorGrayAlpha">#80000000</color>
+    <color name="colorBlue">#0e1f2f</color>
+    <color name="colorTextGray">#ADADAD</color>
+    <color name="colorBg">#3be3e3</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorGridLine">#00ed1b24</color>
+    <color name="colorSelectionBorder">#9c41bc</color>
+    <color name="colorWaveformBg">#253571</color>
+    <color name="colorPlaybackIndicator">#b2253571</color>
+    <color name="colorTimeCode">#dd253571</color>
+    <color name="colorTimeCodeShadow">#aa253571</color>
+    <color name="waveformSelected">#adb5cc</color>
+    <color name="waveformUnselected">#adb5cc</color>
+    <color name="waveformUnselectedBackground">#e8e6e7</color>
+
+
+    <!--audio trim-->
+    <color name="waveform_selected">#33b5e5</color>
+    <color name="waveform_unselected">#195a72</color>
+    <color name="waveform_unselected_bkgnd_overlay">#0a242d</color>
+    <color name="selection_border">#ffffff</color>
+    <color name="playback_indicator">#ffff66</color>
+    <color name="grid_line">#66ffffff</color>
+    <color name="timecode">#ddffffdd</color>
+    <color name="timecode_shadow">#aa000000</color>
+
+    <color name="type_bkgnd_alarm">#88880000</color>
+    <color name="type_bkgnd_ringtone">#88008888</color>
+    <color name="type_bkgnd_notification">#88666600</color>
+    <color name="type_bkgnd_music">#88000000</color>
+    <color name="type_bkgnd_unsupported">#88cccccc</color>
+
+
+</resources>

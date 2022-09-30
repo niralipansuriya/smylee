@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="very_small_margin">5dp</dimen>
+    <dimen name="small_margin">10dp</dimen>
+    <dimen name="medium_margin">15dp</dimen>
+
+    <dimen name="small_padding">10dp</dimen>
+
+    <dimen name="very_small_textsize">14sp</dimen>
+    <dimen name="small_textsize">16sp</dimen>
+
+    <dimen name="username_textsize">15sp</dimen>
+    <dimen name="title_textsize">13sp</dimen>
+    <!--for bottom navigation text size-->
+    <dimen name="design_bottom_navigation_text_size" tools:override="true">10sp</dimen>
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">10sp</dimen>
+
+    <dimen name="small_profile_pic_size">30dp</dimen>
+</resources>

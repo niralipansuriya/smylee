@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="smylee.app">
+
+<!--package="smylee.app">-->
+    <!-- declare storage, camera and audio permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+
+    
+    <application
+        android:name=".URFeedApplication"
+        android:allowBackup="true"
+        android:extractNativeLibs="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher_final"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_final"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+
+
+    <activity
+            android:name=".AppLanguage.LanguageSelectionApp"
+            android:configChanges="locale|orientation">
+
+        </activity>
+        <activity
+            android:name=".audiotrim.customAudioViews.AudioTrimmerActivity"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name=".exploreSearch.SearchActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible" />
+
+        <activity
+            android:name=".playvideo.VideoDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.Activity.FullScreenImage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.Activity.HashTagDetailOrTrendingDetail"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".Intrest.ChooseYourLanguageIntrest" />
+        <activity android:name=".Intrest.ChooseYourCategoryIntrestActivity" />
+
+        <activity
+            android:name=".ui.Activity.DisplayUrlActivity"
+            android:screenOrientation="portrait" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity android:name=".NewSignUpActivity">
+            <!--   <intent-filter>
+                             <action android:name="android.intent.action.MAIN" />
+                             <category android:name="android.intent.category.LAUNCHER" />
+                         </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".ui.Activity.ChangeMobileConfirmation"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".notification.NotificationDetailActivity" />
+        <activity
+            android:name=".splash.SplashActivity"
+            android:screenOrientation="portrait">
+<!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+-->
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="link.smylee.app"
+                    android:scheme="https" />
+                <data
+                    android:host="smylee.page.link"
+                    android:scheme="https" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="link.smylee.app/video"
+                    android:scheme="http" />
+                <data
+                    android:host="smylee.page.link"
+                    android:scheme="http" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="link.smylee.app/video"
+                    android:scheme="http" />
+                <data
+                    android:host="smylee.page.link"
+                    android:scheme="http" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="link.smylee.app/video"
+                    android:scheme="https" />
+                <data
+                    android:host="smylee.page.link"
+                    android:scheme="https" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="link.smylee.app/video"
+                    android:scheme="https" />
+                <data
+                    android:host="smylee.page.link"
+                    android:scheme="https" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="smylee.app"
+                    android:scheme="https" />
+                <data
+                    android:host="com.smylee.app"
+                    android:scheme="https" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="smylee.app"
+                    android:scheme="http" />
+                <data
+                    android:host="com.smylee.app"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+<!--
+        <activity
+            android:name=".playvideo.VideoPlayActivity"
+            android:configChanges="keyboardHidden|keyboard|orientation|screenSize|screenLayout|uiMode"
+            android:screenOrientation="portrait" />
+-->
+        <activity android:name=".Profile.UnfollowActivityOtherProfile" />
+        <activity
+            android:name=".Profile.OtherUserProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.Activity.VideoPlayerActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".privacypolicy.PrivacyPolicyActivity" />
+        <activity android:name=".termscondition.TermsConditionsActivity" />
+        <activity
+            android:name=".ui.Activity.TrimmerActivity"
+            android:screenOrientation="portrait" /> <!-- <activity android:name=".home.ForYouFragmentHome"></activity> -->
+        <activity android:name=".discovercategory.DiscoverCategoryDetails" />
+        <activity android:name=".FollowUnfollowUser.UnFollowActivity" />
+        <activity android:name=".ChangePassword.ChangePassword" />
+        <activity
+            android:name=".ui.Activity.ChangeMobile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.Activity.VerifyChangeMobile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".exploreSearch.SearchViewmorePeople"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".exploreSearch.SearchViewmoreVideos"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".otpverification.VerificstionActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <!--        <activity-->
+        <!--            android:name=".selectcategory.SelectCategory"-->
+        <!--            android:screenOrientation="portrait">-->
+        <!--        </activity>-->
+        <!--        <activity-->
+        <!--            android:name=".VideoLanguageSelection.VideoSelectionLanguage"-->
+        <!--            android:screenOrientation="portrait">-->
+        <!--        </activity>-->
+        <activity
+            android:name=".startPost.StartNewPostActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MusicListing.MusicListingForYouAlbumActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".setting.SettingActivity"
+            android:configChanges="locale|orientation"
+            android:screenOrientation="portrait" />
+        <!--        <activity-->
+        <!--            android:name=".forgotpassword.ForgotPassword"-->
+        <!--            android:screenOrientation="portrait" />-->
+        <activity
+            android:name=".signup.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".blockuser.BlockUserActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FollowUnfollowUser.FollowActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Profile.ProfileActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+
+            android:name=".home.HomeActivity"
+
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+               <!-- <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />-->
+                <action android:name="OPEN_ACTIVITY_1" />
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="video/*" />
+
+            </intent-filter>
+
+
+            <!--<intent-filter>
+                <action android:name="OPEN_ACTIVITY_1" />
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="video/*"/>
+            </intent-filter>-->
+        </activity>
+        <activity android:name=".ui.Activity.CameraVideoRecording" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.Activity.PreviewActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <!--  <intent-filter>
+                  <action android:name="android.intent.action.SEND"/>
+                  <category android:name="android.intent.category.DEFAULT" />
+                  <data android:mimeType="video/*"/>
+              </intent-filter>-->
+
+        </activity>
+
+        <meta-data
+
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+        <provider
+            android:authorities="com.facebook.app.FacebookContentProvider134922705142693"
+            android:name="com.facebook.FacebookContentProvider"
+            android:exported="true" />
+
+
+        <service
+            android:name=".firbase.MyFirebaseMessagingService"
+
+            android:exported="false">
+
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".services.VideoCompressService"
+            android:exported="false" />
+        <service
+            android:name=".services.VideoUploadService"
+            android:exported="false" />
+<!--
+        <service
+            android:name=".services.PostVideoService"
+            android:exported="false" />
+-->
+    </application>
+
+</manifest>

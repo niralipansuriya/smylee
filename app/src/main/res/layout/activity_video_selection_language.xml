@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_my_choice_new"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_centerInParent="false"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:textSize="@dimen/_18sdp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:padding="@dimen/_10sdp"
+                android:fontFamily="@font/avenirltstd_heavy"
+                android:text="@string/video_language"
+                android:layout_height="wrap_content" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <ListView
+            android:id="@+id/lv_video_lang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_below="@+id/rl_my_choice_new"
+            android:dividerHeight="@dimen/_1sdp"
+            android:choiceMode="singleChoice"
+            android:layout_marginTop="@dimen/_52sdp"
+            android:descendantFocusability="beforeDescendants"
+            android:divider="@color/space_transparent"
+            tools:ignore="NotSibling"></ListView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_nodata"
+            android:layout_width="match_parent"
+            android:textSize="@dimen/_12sdp"
+            android:gravity="center"
+            android:fontFamily="@font/avenirltstd_book"
+            android:text="@string/no_data_found"
+            android:visibility="gone"
+            android:textColor="@color/black"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp" />
+
+        <LinearLayout
+            android:id="@+id/ll_update_delete"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lv_video_lang"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <Button
+                android:id="@+id/btn_submit_lang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_border"
+                android:text="@string/submit"
+                android:visibility="gone"
+                android:textColor="@color/white"
+                android:layout_margin="15dp"
+                android:textSize="18dp"
+                android:textStyle="bold"></Button>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+    <!-- </LinearLayout>-->
+
+
+</LinearLayout>

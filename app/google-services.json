@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "70158036046",
+    "firebase_url": "https://smylee-ed8df.firebaseio.com",
+    "project_id": "smylee-ed8df",
+    "storage_bucket": "smylee-ed8df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70158036046:android:81c9ddf6a44ab857ae671f",
+        "android_client_info": {
+          "package_name": "com.tristate.smylee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70158036046-3lrjstncl0o8ad13po1cl9qrg7c2ub6i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tristate.smylee",
+            "certificate_hash": "95cc068048eee085c23d90d44f73942ded5dccee"
+          }
+        },
+        {
+          "client_id": "70158036046-op9mo4761naf9af369q4p1qdli7d3t5u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tristate.smylee",
+            "certificate_hash": "f7dcdf3288453c3624824a308968154b92d0ddca"
+          }
+        },
+        {
+          "client_id": "70158036046-3uji0ve5jc3hva0d5o1ju5thd6cee0mc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAdI22S70Zo1JmIjvs4O_C4FH9dQo_doQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70158036046-3uji0ve5jc3hva0d5o1ju5thd6cee0mc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70158036046:android:fe8694a50bab7e04ae671f",
+        "android_client_info": {
+          "package_name": "smylee.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70158036046-k3cb5qgu06l72ge0b06fn924bbcn1bpa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "smylee.app",
+            "certificate_hash": "033e0997789635979cbba2e37e1cc315140f9090"
+          }
+        },
+        {
+          "client_id": "70158036046-3uji0ve5jc3hva0d5o1ju5thd6cee0mc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAdI22S70Zo1JmIjvs4O_C4FH9dQo_doQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70158036046-3uji0ve5jc3hva0d5o1ju5thd6cee0mc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

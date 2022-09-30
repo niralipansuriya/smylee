@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        tools:ignore="MissingConstraints">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/_20sdp"
+            android:layout_margin="@dimen/_2sdp"
+            app:cardPreventCornerOverlap="false"
+            android:layout_gravity="center"
+            app:cardUseCompatPadding="true"
+            tools:ignore="MissingConstraints">
+
+            <com.nex3z.flowlayout.FlowLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:flChildSpacing="auto"
+                android:layout_gravity="center"
+                android:id="@+id/flowLL"
+                android:gravity="center"
+                app:flChildSpacingForLastRow="align">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/_12sdp"
+                    android:gravity="center|center_horizontal"
+                    android:layout_height="match_parent">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/tv_cat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/avenirltstd_book"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="@color/light_purple"
+                        android:textSize="@dimen/_12sdp"
+                        tools:text="dance" />
+
+                </LinearLayout>
+
+            </com.nex3z.flowlayout.FlowLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

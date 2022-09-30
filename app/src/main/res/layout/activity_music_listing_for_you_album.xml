@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        tools:ignore="MissingConstraints">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:id="@+id/toolbar_layout"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/back"
+                    android:layout_marginEnd="@dimen/_10sdp" />
+
+                <androidx.appcompat.widget.SearchView
+                    android:id="@+id/searchAudio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusableInTouchMode="true"
+                    app:theme="@style/AppSearchView"
+                    android:fontFamily="@font/avenirltstd_book"
+                    app:closeIcon="@drawable/search_new"
+                    app:queryBackground="@color/space_transparent"
+                    app:searchIcon="@drawable/close_new"
+                    android:background="@drawable/common_border"
+                    app:iconifiedByDefault="false"
+                    app:queryHint="@string/search"
+                    android:visibility="visible" />
+
+                <!--<TextView
+                    android:id="@+id/name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/avenirltstd_heavy"
+                    android:gravity="center_horizontal|center"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_18sdp"
+                    android:layout_weight="8"/>-->
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/iv_Search"
+                    android:src="@drawable/search_icon"
+                    android:layout_weight="1"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/app_bar"
+        tools:context=".MusicListing.AlbumAudioDetailActivity">
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">-->
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabalbum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:minHeight="?attr/actionBarSize"
+            app:tabTextAppearance="@style/CustomTextAppearanceTab"
+            app:tabPadding="0dp"
+            app:tabTextColor="@color/black"
+            app:tabIndicatorColor="@color/purple"
+            app:tabIndicatorFullWidth="false"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:tabBackground="@color/white"
+            app:tabContentStart="@android:dimen/app_icon_size" />
+
+        <!--<LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight=".2"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/iv_Search"
+                android:src="@drawable/search_icon"/>
+        </LinearLayout>-->
+        <!--</LinearLayout>-->
+
+        <!-- our toolbar -->
+
+        <!-- our tablayout to display tabs  -->
+
+        <!-- View pager to swipe views -->
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/pager_music"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

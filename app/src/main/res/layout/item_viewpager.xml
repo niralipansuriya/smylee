@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llPlayerMain"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+        <com.google.android.exoplayer2.ui.PlayerView
+            android:id="@+id/playerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:surface_type="texture_view"
+            android:keepScreenOn="true"
+            app:use_controller="false"
+            android:visibility="visible"
+            app:resize_mode="fixed_width" />
+        <!--app:show_timeout="0"-->
+
+        <!--<com.volokh.danylo.video_player_manager.ui.VideoPlayerView
+            android:id="@+id/player"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />-->
+
+        <!-- <TextView
+             android:id="@+id/tvNumber"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="top|right"
+             android:text="1"
+             android:textColor="@color/white"
+             android:textSize="@dimen/_12sdp"
+             android:shadowRadius="1"
+             android:shadowColor="#000"
+             android:shadowDx="2"
+             android:shadowDy="2"
+             android:visibility="visible"
+             android:layout_margin="@dimen/_10sdp"/>-->
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivVideoImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:visibility="gone" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgPlayVideo"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/play"
+            android:visibility="gone"
+            android:alpha="0.5"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <smylee.app.custom.GifView
+            android:id="@+id/gifViewLoader"
+            android:layout_width="@dimen/_150sdp"
+            android:visibility="visible"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_gravity="center" />
+
+        <View
+            android:id="@+id/viewHandleClick"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent" />
+
+    </FrameLayout>
+
+</LinearLayout>

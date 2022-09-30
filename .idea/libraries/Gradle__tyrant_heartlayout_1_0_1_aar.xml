@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: tyrant:heartlayout:1.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e5707234814ceb90b1c2c98919862a8c/jetified-heartlayout-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e5707234814ceb90b1c2c98919862a8c/jetified-heartlayout-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e5707234814ceb90b1c2c98919862a8c/jetified-heartlayout-1.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/tyrant/heartlayout/1.0.1/eb2ff28e9c4046b12eece6c6aca891aacdcf179a/heartlayout-1.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/tyrant/heartlayout/1.0.1/5b0afafa545876b7dbf4a8591558589a12c591c6/heartlayout-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

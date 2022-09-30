@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_my_choice_new"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_25sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/ll_header"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="@dimen/_22sdp"
+                android:fontFamily="@font/avenir_std_black"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="@string/chooseapplanguage"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="@dimen/_10sdp"
+                android:visibility="gone"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="@font/avenirltstd_book"
+                android:textColor="@color/light_purple"
+                android:text="@string/app_language_recommedations"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvAppLanguage"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/ll_header"
+            android:layout_above="@+id/ll_update_delete"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:spanCount="2"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:descendantFocusability="beforeDescendants"
+            android:divider="@null" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_nodata"
+            android:layout_width="match_parent"
+            android:textSize="@dimen/_20sdp"
+            android:gravity="center"
+            android:text="@string/no_data_found"
+            android:fontFamily="@font/avenirltstd_book"
+            android:visibility="gone"
+            android:textColor="@color/black"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp" />
+
+        <LinearLayout
+            android:id="@+id/ll_update_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="bottom"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:layout_marginBottom="@dimen/_25sdp">
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:visibility="gone"
+                android:background="@drawable/button_border"
+                android:text="@string/submit"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
